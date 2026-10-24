@@ -1,0 +1,1549 @@
+{
+  "version": "0.13.1",
+  "selection": {
+    "driver": "D21",
+    "ben": "B21",
+    "alex": "A21"
+  },
+  "customerVoices": {
+    "june": "N25",
+    "wade": "N22",
+    "nora": "N24",
+    "rowan": "N21",
+    "leon": "N21",
+    "milo": "N23",
+    "edith": "N26",
+    "owen": "N23",
+    "ruth": "N25",
+    "cal": "N22"
+  },
+  "speakers": {
+    "june": "琼",
+    "wade": "韦德",
+    "edith": "伊迪丝",
+    "nora": "诺拉",
+    "owen": "欧文",
+    "rowan": "罗文",
+    "leon": "里昂",
+    "milo": "迈洛",
+    "ruth": "露丝",
+    "cal": "卡尔",
+    "alex": "你"
+  },
+  "lines": [
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "刚结束西边桥面的抢修。路口的新牌子只有一个钉孔，旧牌子有四个。慢一点没关系，我的手冻得拿不稳硬币。",
+      "profile": "N25",
+      "clipId": "n25-42939004d6a2",
+      "src": "assets/voice/v13/n25-42939004d6a2.wav",
+      "seconds": 10.7332
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "西桥维修通道。雾太大，我沿路边灯过来。",
+      "profile": "N25",
+      "clipId": "n25-c12c0784d8d0",
+      "src": "assets/voice/v13/n25-c12c0784d8d0.wav",
+      "seconds": 4.2874
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "现在是 Ruth 调度的新养护队。旧班组的 Mike 三年前就去世了，你可以查事故记录。",
+      "profile": "N25",
+      "clipId": "n25-231fba0d8faf",
+      "src": "assets/voice/v13/n25-231fba0d8faf.wav",
+      "seconds": 7.916
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "以前的夜班员？他总把找零硬币按年份分开。后来再没见过。",
+      "profile": "N25",
+      "clipId": "n25-d716c0af080b",
+      "src": "assets/voice/v13/n25-d716c0af080b.wav",
+      "seconds": 6.1465
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "我还在挑东西。有什么事吗？",
+      "profile": "N25",
+      "clipId": "n25-cb6b2b44d375",
+      "src": "assets/voice/v13/n25-cb6b2b44d375.wav",
+      "seconds": 2.7477
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "这些就是我挑的商品。麻烦你了。",
+      "profile": "N25",
+      "clipId": "n25-117307c80446",
+      "src": "assets/voice/v13/n25-117307c80446.wav",
+      "seconds": 3.1001
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "谢谢，路上小心。",
+      "profile": "N25",
+      "clipId": "n25-8a45852189e3",
+      "src": "assets/voice/v13/n25-8a45852189e3.wav",
+      "seconds": 1.7388
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "好吧，我去下一个站。",
+      "profile": "N25",
+      "clipId": "n25-3fc93796a117",
+      "src": "assets/voice/v13/n25-3fc93796a117.wav",
+      "seconds": 2.009
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "这张多了，我退给你。再算一下剩余的。",
+      "profile": "N25",
+      "clipId": "n25-842e7be60d3c",
+      "src": "assets/voice/v13/n25-842e7be60d3c.wav",
+      "seconds": 3.8551
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "这不够吧？麻烦再算一下。",
+      "profile": "N25",
+      "clipId": "n25-6ae7fbd636ba",
+      "src": "assets/voice/v13/n25-6ae7fbd636ba.wav",
+      "seconds": 2.6755
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "你多找了。不是这个数。",
+      "profile": "N25",
+      "clipId": "n25-b89af97da100",
+      "src": "assets/voice/v13/n25-b89af97da100.wav",
+      "seconds": 2.244
+    },
+    {
+      "actorId": "wade",
+      "speaker": "韦德",
+      "text": "门口的路我走不惯。别担心，资料都是真的。你可以查。",
+      "profile": "N22",
+      "clipId": "n22-d2b67ed9c7c4",
+      "src": "assets/voice/v13/n22-d2b67ed9c7c4.wav",
+      "seconds": 5.7218
+    },
+    {
+      "actorId": "wade",
+      "speaker": "韦德",
+      "text": "后门外。别看前面的车，那不是我开的。",
+      "profile": "N22",
+      "clipId": "n22-4ab3307265ce",
+      "src": "assets/voice/v13/n22-4ab3307265ce.wav",
+      "seconds": 3.9498
+    },
+    {
+      "actorId": "wade",
+      "speaker": "韦德",
+      "text": "一直开着。里面不需要开灯，东西也不会坏。",
+      "profile": "N22",
+      "clipId": "n22-113d03bdbc9f",
+      "src": "assets/voice/v13/n22-113d03bdbc9f.wav",
+      "seconds": 4.2807
+    },
+    {
+      "actorId": "wade",
+      "speaker": "韦德",
+      "text": "我每天经过。你们每次都换一个出口编号。",
+      "profile": "N22",
+      "clipId": "n22-03742baa9ac1",
+      "src": "assets/voice/v13/n22-03742baa9ac1.wav",
+      "seconds": 4.2315
+    },
+    {
+      "actorId": "wade",
+      "speaker": "韦德",
+      "text": "我还在挑东西。有什么事吗？",
+      "profile": "N22",
+      "clipId": "n22-cb6b2b44d375",
+      "src": "assets/voice/v13/n22-cb6b2b44d375.wav",
+      "seconds": 2.748
+    },
+    {
+      "actorId": "wade",
+      "speaker": "韦德",
+      "text": "这些就是我挑的商品。麻烦你了。",
+      "profile": "N22",
+      "clipId": "n22-117307c80446",
+      "src": "assets/voice/v13/n22-117307c80446.wav",
+      "seconds": 3.1032
+    },
+    {
+      "actorId": "wade",
+      "speaker": "韦德",
+      "text": "我们明晚还会见面。",
+      "profile": "N22",
+      "clipId": "n22-35e821329aa8",
+      "src": "assets/voice/v13/n22-35e821329aa8.wav",
+      "seconds": 1.7452
+    },
+    {
+      "actorId": "wade",
+      "speaker": "韦德",
+      "text": "你还会需要我的。",
+      "profile": "N22",
+      "clipId": "n22-2b81462e4ec4",
+      "src": "assets/voice/v13/n22-2b81462e4ec4.wav",
+      "seconds": 1.4357
+    },
+    {
+      "actorId": "wade",
+      "speaker": "韦德",
+      "text": "这张多了，我退给你。再算一下剩余的。",
+      "profile": "N22",
+      "clipId": "n22-842e7be60d3c",
+      "src": "assets/voice/v13/n22-842e7be60d3c.wav",
+      "seconds": 3.8585
+    },
+    {
+      "actorId": "wade",
+      "speaker": "韦德",
+      "text": "这不够吧？麻烦再算一下。",
+      "profile": "N22",
+      "clipId": "n22-6ae7fbd636ba",
+      "src": "assets/voice/v13/n22-6ae7fbd636ba.wav",
+      "seconds": 2.6751
+    },
+    {
+      "actorId": "wade",
+      "speaker": "韦德",
+      "text": "你多找了。不是这个数。",
+      "profile": "N22",
+      "clipId": "n22-b89af97da100",
+      "src": "assets/voice/v13/n22-b89af97da100.wav",
+      "seconds": 2.2603
+    },
+    {
+      "actorId": "edith",
+      "speaker": "伊迪丝",
+      "text": "旧出口没改号以前，我每周都送孩子经过。Daniel 帮我换过一次轮胎。他从不穿左边口袋破了的那件外套。",
+      "profile": "N26",
+      "clipId": "n26-8f46de9146bf",
+      "src": "assets/voice/v13/n26-8f46de9146bf.wav",
+      "seconds": 9.5447
+    },
+    {
+      "actorId": "edith",
+      "speaker": "伊迪丝",
+      "text": "新路的灯太亮，反而认不出以前的路口。",
+      "profile": "N26",
+      "clipId": "n26-c620688ba43f",
+      "src": "assets/voice/v13/n26-c620688ba43f.wav",
+      "seconds": 3.5605
+    },
+    {
+      "actorId": "edith",
+      "speaker": "伊迪丝",
+      "text": "左口袋缝着蓝线，是我帮他缝的。",
+      "profile": "N26",
+      "clipId": "n26-17780a5b03bf",
+      "src": "assets/voice/v13/n26-17780a5b03bf.wav",
+      "seconds": 3.0164
+    },
+    {
+      "actorId": "edith",
+      "speaker": "伊迪丝",
+      "text": "没人。车里的收音机却一路有人叫我的名字。",
+      "profile": "N26",
+      "clipId": "n26-216cb5ac97c0",
+      "src": "assets/voice/v13/n26-216cb5ac97c0.wav",
+      "seconds": 3.8688
+    },
+    {
+      "actorId": "edith",
+      "speaker": "伊迪丝",
+      "text": "我还在挑东西。有什么事吗？",
+      "profile": "N26",
+      "clipId": "n26-cb6b2b44d375",
+      "src": "assets/voice/v13/n26-cb6b2b44d375.wav",
+      "seconds": 2.6513
+    },
+    {
+      "actorId": "edith",
+      "speaker": "伊迪丝",
+      "text": "这些就是我挑的商品。麻烦你了。",
+      "profile": "N26",
+      "clipId": "n26-117307c80446",
+      "src": "assets/voice/v13/n26-117307c80446.wav",
+      "seconds": 2.9853
+    },
+    {
+      "actorId": "edith",
+      "speaker": "伊迪丝",
+      "text": "谢谢，路上小心。",
+      "profile": "N26",
+      "clipId": "n26-8a45852189e3",
+      "src": "assets/voice/v13/n26-8a45852189e3.wav",
+      "seconds": 1.6937
+    },
+    {
+      "actorId": "edith",
+      "speaker": "伊迪丝",
+      "text": "好吧，我去下一个站。",
+      "profile": "N26",
+      "clipId": "n26-3fc93796a117",
+      "src": "assets/voice/v13/n26-3fc93796a117.wav",
+      "seconds": 1.9457
+    },
+    {
+      "actorId": "edith",
+      "speaker": "伊迪丝",
+      "text": "这张多了，我退给你。再算一下剩余的。",
+      "profile": "N26",
+      "clipId": "n26-842e7be60d3c",
+      "src": "assets/voice/v13/n26-842e7be60d3c.wav",
+      "seconds": 3.7104
+    },
+    {
+      "actorId": "edith",
+      "speaker": "伊迪丝",
+      "text": "这不够吧？麻烦再算一下。",
+      "profile": "N26",
+      "clipId": "n26-6ae7fbd636ba",
+      "src": "assets/voice/v13/n26-6ae7fbd636ba.wav",
+      "seconds": 2.5751
+    },
+    {
+      "actorId": "edith",
+      "speaker": "伊迪丝",
+      "text": "你多找了。不是这个数。",
+      "profile": "N26",
+      "clipId": "n26-b89af97da100",
+      "src": "assets/voice/v13/n26-b89af97da100.wav",
+      "seconds": 2.1657
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "别只看照片，地址和编号还能读。医院的出勤记录也能查到我。今晚有个病人一直问九号出口，我们的旧地图里没有它。",
+      "profile": "N24",
+      "clipId": "n24-0583654a75b6",
+      "src": "assets/voice/v13/n24-0583654a75b6.wav",
+      "seconds": 10.9665
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "县医院东楼。我的换证申请也在那里盖过章。",
+      "profile": "N24",
+      "clipId": "n24-9d2debce03fe",
+      "src": "assets/voice/v13/n24-9d2debce03fe.wav",
+      "seconds": 4.2674
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "只有我。路上看见一辆没有开近光的配送车。",
+      "profile": "N24",
+      "clipId": "n24-3a8637723c7a",
+      "src": "assets/voice/v13/n24-3a8637723c7a.wav",
+      "seconds": 4.2572
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "病人说在那里等哥哥。但他的病例记载，他没有兄弟姐妹。",
+      "profile": "N24",
+      "clipId": "n24-ee7b13d8c870",
+      "src": "assets/voice/v13/n24-ee7b13d8c870.wav",
+      "seconds": 5.0487
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "我还在挑东西。有什么事吗？",
+      "profile": "N24",
+      "clipId": "n24-cb6b2b44d375",
+      "src": "assets/voice/v13/n24-cb6b2b44d375.wav",
+      "seconds": 2.6481
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "这些就是我挑的商品。麻烦你了。",
+      "profile": "N24",
+      "clipId": "n24-117307c80446",
+      "src": "assets/voice/v13/n24-117307c80446.wav",
+      "seconds": 2.9851
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "谢谢，路上小心。",
+      "profile": "N24",
+      "clipId": "n24-8a45852189e3",
+      "src": "assets/voice/v13/n24-8a45852189e3.wav",
+      "seconds": 1.6937
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "好吧，我去下一个站。",
+      "profile": "N24",
+      "clipId": "n24-3fc93796a117",
+      "src": "assets/voice/v13/n24-3fc93796a117.wav",
+      "seconds": 1.9415
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "这张多了，我退给你。再算一下剩余的。",
+      "profile": "N24",
+      "clipId": "n24-842e7be60d3c",
+      "src": "assets/voice/v13/n24-842e7be60d3c.wav",
+      "seconds": 3.7114
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "这不够吧？麻烦再算一下。",
+      "profile": "N24",
+      "clipId": "n24-6ae7fbd636ba",
+      "src": "assets/voice/v13/n24-6ae7fbd636ba.wav",
+      "seconds": 2.5725
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "你多找了。不是这个数。",
+      "profile": "N24",
+      "clipId": "n24-b89af97da100",
+      "src": "assets/voice/v13/n24-b89af97da100.wav",
+      "seconds": 2.1655
+    },
+    {
+      "actorId": "owen",
+      "speaker": "欧文",
+      "text": "在北面的广告牌下，有个人一直面向树林。我回头时他已经在广告牌另一边了，没听见脚步。",
+      "profile": "N23",
+      "clipId": "n23-f69262cecb62",
+      "src": "assets/voice/v13/n23-f69262cecb62.wav",
+      "seconds": 8.2784
+    },
+    {
+      "actorId": "owen",
+      "speaker": "欧文",
+      "text": "HALF A MILE。一眼是这个，再看又像 LAST MILE。",
+      "profile": "N23",
+      "clipId": "n23-18e39d5da065",
+      "src": "assets/voice/v13/n23-18e39d5da065.wav",
+      "seconds": 4.0676
+    },
+    {
+      "actorId": "owen",
+      "speaker": "欧文",
+      "text": "我只看见车灯，驾驶室里没有亮过灯。",
+      "profile": "N23",
+      "clipId": "n23-72b61bc8615e",
+      "src": "assets/voice/v13/n23-72b61bc8615e.wav",
+      "seconds": 3.2389
+    },
+    {
+      "actorId": "owen",
+      "speaker": "欧文",
+      "text": "昨天经过，店里那块公告板还没有失踪广告。",
+      "profile": "N23",
+      "clipId": "n23-b1291908fc88",
+      "src": "assets/voice/v13/n23-b1291908fc88.wav",
+      "seconds": 4.041
+    },
+    {
+      "actorId": "owen",
+      "speaker": "欧文",
+      "text": "我还在挑东西。有什么事吗？",
+      "profile": "N23",
+      "clipId": "n23-cb6b2b44d375",
+      "src": "assets/voice/v13/n23-cb6b2b44d375.wav",
+      "seconds": 2.6525
+    },
+    {
+      "actorId": "owen",
+      "speaker": "欧文",
+      "text": "这些就是我挑的商品。麻烦你了。",
+      "profile": "N23",
+      "clipId": "n23-117307c80446",
+      "src": "assets/voice/v13/n23-117307c80446.wav",
+      "seconds": 2.9912
+    },
+    {
+      "actorId": "owen",
+      "speaker": "欧文",
+      "text": "谢谢，路上小心。",
+      "profile": "N23",
+      "clipId": "n23-8a45852189e3",
+      "src": "assets/voice/v13/n23-8a45852189e3.wav",
+      "seconds": 1.6792
+    },
+    {
+      "actorId": "owen",
+      "speaker": "欧文",
+      "text": "好吧，我去下一个站。",
+      "profile": "N23",
+      "clipId": "n23-3fc93796a117",
+      "src": "assets/voice/v13/n23-3fc93796a117.wav",
+      "seconds": 1.9473
+    },
+    {
+      "actorId": "owen",
+      "speaker": "欧文",
+      "text": "这张多了，我退给你。再算一下剩余的。",
+      "profile": "N23",
+      "clipId": "n23-842e7be60d3c",
+      "src": "assets/voice/v13/n23-842e7be60d3c.wav",
+      "seconds": 3.7156
+    },
+    {
+      "actorId": "owen",
+      "speaker": "欧文",
+      "text": "这不够吧？麻烦再算一下。",
+      "profile": "N23",
+      "clipId": "n23-6ae7fbd636ba",
+      "src": "assets/voice/v13/n23-6ae7fbd636ba.wav",
+      "seconds": 2.5808
+    },
+    {
+      "actorId": "owen",
+      "speaker": "欧文",
+      "text": "你多找了。不是这个数。",
+      "profile": "N23",
+      "clipId": "n23-b89af97da100",
+      "src": "assets/voice/v13/n23-b89af97da100.wav",
+      "seconds": 2.1797
+    },
+    {
+      "actorId": "rowan",
+      "speaker": "罗文",
+      "text": "我知道你今晚一个人。电话坏了也没关系，让我进去就是了。",
+      "profile": "N21",
+      "clipId": "n21-91ad6290fcc9",
+      "src": "assets/voice/v13/n21-91ad6290fcc9.wav",
+      "seconds": 5.2385
+    },
+    {
+      "actorId": "rowan",
+      "speaker": "罗文",
+      "text": "老板。我们刚通完电话，你不会连他的声音都听不出来吧。",
+      "profile": "N21",
+      "clipId": "n21-543ba1d36326",
+      "src": "assets/voice/v13/n21-543ba1d36326.wav",
+      "seconds": 5.6465
+    },
+    {
+      "actorId": "rowan",
+      "speaker": "罗文",
+      "text": "EMP-091。资料是真的，你尽管拿去查。",
+      "profile": "N21",
+      "clipId": "n21-6602c61170ce",
+      "src": "assets/voice/v13/n21-6602c61170ce.wav",
+      "seconds": 4.2945
+    },
+    {
+      "actorId": "rowan",
+      "speaker": "罗文",
+      "text": "他还在交班。只要你开门，他就不用继续等了。",
+      "profile": "N21",
+      "clipId": "n21-b10ac7836625",
+      "src": "assets/voice/v13/n21-b10ac7836625.wav",
+      "seconds": 4.3238
+    },
+    {
+      "actorId": "rowan",
+      "speaker": "罗文",
+      "text": "老板让我来帮你卸货。把后门打开，我替你搬剩下的。",
+      "profile": "N21",
+      "clipId": "n21-d486aedb951e",
+      "src": "assets/voice/v13/n21-d486aedb951e.wav",
+      "seconds": 4.9954
+    },
+    {
+      "actorId": "rowan",
+      "speaker": "罗文",
+      "text": "我们明晚还会见面。",
+      "profile": "N21",
+      "clipId": "n21-35e821329aa8",
+      "src": "assets/voice/v13/n21-35e821329aa8.wav",
+      "seconds": 1.6654
+    },
+    {
+      "actorId": "rowan",
+      "speaker": "罗文",
+      "text": "你还会需要我的。",
+      "profile": "N21",
+      "clipId": "n21-2b81462e4ec4",
+      "src": "assets/voice/v13/n21-2b81462e4ec4.wav",
+      "seconds": 1.3827
+    },
+    {
+      "actorId": "rowan",
+      "speaker": "罗文",
+      "text": "这张多了，我退给你。再算一下剩余的。",
+      "profile": "N21",
+      "clipId": "n21-842e7be60d3c",
+      "src": "assets/voice/v13/n21-842e7be60d3c.wav",
+      "seconds": 3.7187
+    },
+    {
+      "actorId": "rowan",
+      "speaker": "罗文",
+      "text": "这不够吧？麻烦再算一下。",
+      "profile": "N21",
+      "clipId": "n21-6ae7fbd636ba",
+      "src": "assets/voice/v13/n21-6ae7fbd636ba.wav",
+      "seconds": 2.577
+    },
+    {
+      "actorId": "rowan",
+      "speaker": "罗文",
+      "text": "你多找了。不是这个数。",
+      "profile": "N21",
+      "clipId": "n21-b89af97da100",
+      "src": "assets/voice/v13/n21-b89af97da100.wav",
+      "seconds": 2.1806
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "我没再按第二次付款。订单应该还是待处理，尾号 2305。",
+      "profile": "N21",
+      "clipId": "n21-33f5f4aac667",
+      "src": "assets/voice/v13/n21-33f5f4aac667.wav",
+      "seconds": 5.8621
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "没有，只付了一次，尾号 2305，卡也是这张。",
+      "profile": "N21",
+      "clipId": "n21-dcf25e107b20",
+      "src": "assets/voice/v13/n21-dcf25e107b20.wav",
+      "seconds": 4.7503
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "车尾站着个员工，帽檐很低。我按喇叭时他没转身。",
+      "profile": "N21",
+      "clipId": "n21-dad40cacf25c",
+      "src": "assets/voice/v13/n21-dad40cacf25c.wav",
+      "seconds": 4.8388
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "旧支线关闭三周年。报道上那张便利店照片，招牌是八。",
+      "profile": "N21",
+      "clipId": "n21-16f343cf423a",
+      "src": "assets/voice/v13/n21-16f343cf423a.wav",
+      "seconds": 5.3653
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "三号泵吞了我的钱，但一滴油也没出。能帮我查一下吗？",
+      "profile": "N21",
+      "clipId": "n21-c7de8ea1a39f",
+      "src": "assets/voice/v13/n21-c7de8ea1a39f.wav",
+      "seconds": 5.1937
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "谢谢，路上小心。",
+      "profile": "N21",
+      "clipId": "n21-8a45852189e3",
+      "src": "assets/voice/v13/n21-8a45852189e3.wav",
+      "seconds": 1.693
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "好吧，我去下一个站。",
+      "profile": "N21",
+      "clipId": "n21-3fc93796a117",
+      "src": "assets/voice/v13/n21-3fc93796a117.wav",
+      "seconds": 1.9524
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "这张多了，我退给你。再算一下剩余的。",
+      "profile": "N21",
+      "clipId": "n21-842e7be60d3c",
+      "src": "assets/voice/v13/n21-842e7be60d3c.wav",
+      "seconds": 3.7187
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "这不够吧？麻烦再算一下。",
+      "profile": "N21",
+      "clipId": "n21-6ae7fbd636ba",
+      "src": "assets/voice/v13/n21-6ae7fbd636ba.wav",
+      "seconds": 2.577
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "你多找了。不是这个数。",
+      "profile": "N21",
+      "clipId": "n21-b89af97da100",
+      "src": "assets/voice/v13/n21-b89af97da100.wav",
+      "seconds": 2.1806
+    },
+    {
+      "actorId": "milo",
+      "speaker": "迈洛",
+      "text": "你还没有报修？那是我来早了。先让我看一眼，别把门关上。",
+      "profile": "N23",
+      "clipId": "n23-efea9750bfe4",
+      "src": "assets/voice/v13/n23-efea9750bfe4.wav",
+      "seconds": 5.7703
+    },
+    {
+      "actorId": "milo",
+      "speaker": "迈洛",
+      "text": "调度员。她说你会需要我，时间不会错。",
+      "profile": "N23",
+      "clipId": "n23-efe3d2683616",
+      "src": "assets/voice/v13/n23-efe3d2683616.wav",
+      "seconds": 3.9455
+    },
+    {
+      "actorId": "milo",
+      "speaker": "迈洛",
+      "text": "无线电。它不该收得到已经停用的频道。",
+      "profile": "N23",
+      "clipId": "n23-fa8a6f30a98a",
+      "src": "assets/voice/v13/n23-fa8a6f30a98a.wav",
+      "seconds": 3.753
+    },
+    {
+      "actorId": "milo",
+      "speaker": "迈洛",
+      "text": "这是你的第三晚？你上次也是这样问我。",
+      "profile": "N23",
+      "clipId": "n23-406adc84dc18",
+      "src": "assets/voice/v13/n23-406adc84dc18.wav",
+      "seconds": 3.4065
+    },
+    {
+      "actorId": "milo",
+      "speaker": "迈洛",
+      "text": "我还在挑东西。有什么事吗？",
+      "profile": "N23",
+      "clipId": "n23-cb6b2b44d375",
+      "src": "assets/voice/v13/n23-cb6b2b44d375.wav",
+      "seconds": 2.6525
+    },
+    {
+      "actorId": "milo",
+      "speaker": "迈洛",
+      "text": "这些就是我挑的商品。麻烦你了。",
+      "profile": "N23",
+      "clipId": "n23-117307c80446",
+      "src": "assets/voice/v13/n23-117307c80446.wav",
+      "seconds": 2.9912
+    },
+    {
+      "actorId": "milo",
+      "speaker": "迈洛",
+      "text": "我们明晚还会见面。",
+      "profile": "N23",
+      "clipId": "n23-35e821329aa8",
+      "src": "assets/voice/v13/n23-35e821329aa8.wav",
+      "seconds": 1.6717
+    },
+    {
+      "actorId": "milo",
+      "speaker": "迈洛",
+      "text": "你还会需要我的。",
+      "profile": "N23",
+      "clipId": "n23-2b81462e4ec4",
+      "src": "assets/voice/v13/n23-2b81462e4ec4.wav",
+      "seconds": 1.3834
+    },
+    {
+      "actorId": "milo",
+      "speaker": "迈洛",
+      "text": "这张多了，我退给你。再算一下剩余的。",
+      "profile": "N23",
+      "clipId": "n23-842e7be60d3c",
+      "src": "assets/voice/v13/n23-842e7be60d3c.wav",
+      "seconds": 3.7156
+    },
+    {
+      "actorId": "milo",
+      "speaker": "迈洛",
+      "text": "这不够吧？麻烦再算一下。",
+      "profile": "N23",
+      "clipId": "n23-6ae7fbd636ba",
+      "src": "assets/voice/v13/n23-6ae7fbd636ba.wav",
+      "seconds": 2.5808
+    },
+    {
+      "actorId": "milo",
+      "speaker": "迈洛",
+      "text": "你多找了。不是这个数。",
+      "profile": "N23",
+      "clipId": "n23-b89af97da100",
+      "src": "assets/voice/v13/n23-b89af97da100.wav",
+      "seconds": 2.1797
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "我把旧报纸带来了。失踪的 Daniel 和你同姓。你昨晚的记录已经送到医院保安那里了。",
+      "profile": "N24",
+      "clipId": "n24-64261484bd08",
+      "src": "assets/voice/v13/n24-64261484bd08.wav",
+      "seconds": 7.2042
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "病人的探视人签名是 Daniel Reed，可录像里探视室一直空着。",
+      "profile": "N24",
+      "clipId": "n24-dda06139d7c3",
+      "src": "assets/voice/v13/n24-dda06139d7c3.wav",
+      "seconds": 4.8758
+    },
+    {
+      "actorId": "ruth",
+      "speaker": "露丝",
+      "text": "我在另一端接过你的电话。你还没说站点名字，线路里就有人先说了第九出口。",
+      "profile": "N25",
+      "clipId": "n25-def75dbd95df",
+      "src": "assets/voice/v13/n25-def75dbd95df.wav",
+      "seconds": 7.4515
+    },
+    {
+      "actorId": "ruth",
+      "speaker": "露丝",
+      "text": "一通只有呼吸声。另一通是你在读一张还没打印的小票。",
+      "profile": "N25",
+      "clipId": "n25-b61a3ec7f36d",
+      "src": "assets/voice/v13/n25-b61a3ec7f36d.wav",
+      "seconds": 5.1585
+    },
+    {
+      "actorId": "ruth",
+      "speaker": "露丝",
+      "text": "这个号码停用了。先别打回去，保留你手里的记录。",
+      "profile": "N25",
+      "clipId": "n25-de18bcb7d414",
+      "src": "assets/voice/v13/n25-de18bcb7d414.wav",
+      "seconds": 4.7353
+    },
+    {
+      "actorId": "ruth",
+      "speaker": "露丝",
+      "text": "看今夜的轮值编号。证件是真的，也不能替我决定是否能进后仓。",
+      "profile": "N25",
+      "clipId": "n25-98bb3e118762",
+      "src": "assets/voice/v13/n25-98bb3e118762.wav",
+      "seconds": 6.2063
+    },
+    {
+      "actorId": "ruth",
+      "speaker": "露丝",
+      "text": "我还在挑东西。有什么事吗？",
+      "profile": "N25",
+      "clipId": "n25-cb6b2b44d375",
+      "src": "assets/voice/v13/n25-cb6b2b44d375.wav",
+      "seconds": 2.7477
+    },
+    {
+      "actorId": "ruth",
+      "speaker": "露丝",
+      "text": "这些就是我挑的商品。麻烦你了。",
+      "profile": "N25",
+      "clipId": "n25-117307c80446",
+      "src": "assets/voice/v13/n25-117307c80446.wav",
+      "seconds": 3.1001
+    },
+    {
+      "actorId": "ruth",
+      "speaker": "露丝",
+      "text": "谢谢，路上小心。",
+      "profile": "N25",
+      "clipId": "n25-8a45852189e3",
+      "src": "assets/voice/v13/n25-8a45852189e3.wav",
+      "seconds": 1.7388
+    },
+    {
+      "actorId": "ruth",
+      "speaker": "露丝",
+      "text": "好吧，我去下一个站。",
+      "profile": "N25",
+      "clipId": "n25-3fc93796a117",
+      "src": "assets/voice/v13/n25-3fc93796a117.wav",
+      "seconds": 2.009
+    },
+    {
+      "actorId": "ruth",
+      "speaker": "露丝",
+      "text": "这张多了，我退给你。再算一下剩余的。",
+      "profile": "N25",
+      "clipId": "n25-842e7be60d3c",
+      "src": "assets/voice/v13/n25-842e7be60d3c.wav",
+      "seconds": 3.8551
+    },
+    {
+      "actorId": "ruth",
+      "speaker": "露丝",
+      "text": "这不够吧？麻烦再算一下。",
+      "profile": "N25",
+      "clipId": "n25-6ae7fbd636ba",
+      "src": "assets/voice/v13/n25-6ae7fbd636ba.wav",
+      "seconds": 2.6755
+    },
+    {
+      "actorId": "ruth",
+      "speaker": "露丝",
+      "text": "你多找了。不是这个数。",
+      "profile": "N25",
+      "clipId": "n25-b89af97da100",
+      "src": "assets/voice/v13/n25-b89af97da100.wav",
+      "seconds": 2.244
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "西桥还在施工，Mike 还在等我。昨天？昨天我没有来过这里。",
+      "profile": "N25",
+      "clipId": "n25-987ea0b4b1ca",
+      "src": "assets/voice/v13/n25-987ea0b4b1ca.wav",
+      "seconds": 6.1443
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "西桥维修通道。我每天都走，三年前也走。",
+      "profile": "N25",
+      "clipId": "n25-58f3c1b8b1b2",
+      "src": "assets/voice/v13/n25-58f3c1b8b1b2.wav",
+      "seconds": 4.6485
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "Mike 还在桥上。他没有死。",
+      "profile": "N25",
+      "clipId": "n25-36b81c1143d6",
+      "src": "assets/voice/v13/n25-36b81c1143d6.wav",
+      "seconds": 2.777
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "我们明晚还会见面。",
+      "profile": "N25",
+      "clipId": "n25-35e821329aa8",
+      "src": "assets/voice/v13/n25-35e821329aa8.wav",
+      "seconds": 1.7265
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "你还会需要我的。",
+      "profile": "N25",
+      "clipId": "n25-2b81462e4ec4",
+      "src": "assets/voice/v13/n25-2b81462e4ec4.wav",
+      "seconds": 1.4189
+    },
+    {
+      "actorId": "rowan",
+      "speaker": "罗文",
+      "text": "Daniel 让我来接班。你已经拿到他的员工卡了，不是吗？开门，我拿回去。",
+      "profile": "N21",
+      "clipId": "n21-c633853adaad",
+      "src": "assets/voice/v13/n21-c633853adaad.wav",
+      "seconds": 6.6225
+    },
+    {
+      "actorId": "cal",
+      "speaker": "卡尔",
+      "text": "上面还有一间员工室，门没关。我在窗户外看见你了。",
+      "profile": "N22",
+      "clipId": "n22-18ffc688ebf7",
+      "src": "assets/voice/v13/n22-18ffc688ebf7.wav",
+      "seconds": 5.3059
+    },
+    {
+      "actorId": "cal",
+      "speaker": "卡尔",
+      "text": "你。十分钟前，或者明天十分钟前。",
+      "profile": "N22",
+      "clipId": "n22-010b10cefedf",
+      "src": "assets/voice/v13/n22-010b10cefedf.wav",
+      "seconds": 3.9456
+    },
+    {
+      "actorId": "cal",
+      "speaker": "卡尔",
+      "text": "上面。你刚才在那里看着我。",
+      "profile": "N22",
+      "clipId": "n22-3638dc565843",
+      "src": "assets/voice/v13/n22-3638dc565843.wav",
+      "seconds": 2.8328
+    },
+    {
+      "actorId": "cal",
+      "speaker": "卡尔",
+      "text": "我负责拆掉它。每次都只剩一个员工不肯离开。",
+      "profile": "N22",
+      "clipId": "n22-20c280c96525",
+      "src": "assets/voice/v13/n22-20c280c96525.wav",
+      "seconds": 4.6404
+    },
+    {
+      "actorId": "cal",
+      "speaker": "卡尔",
+      "text": "我还在挑东西。有什么事吗？",
+      "profile": "N22",
+      "clipId": "n22-cb6b2b44d375",
+      "src": "assets/voice/v13/n22-cb6b2b44d375.wav",
+      "seconds": 2.748
+    },
+    {
+      "actorId": "cal",
+      "speaker": "卡尔",
+      "text": "这些就是我挑的商品。麻烦你了。",
+      "profile": "N22",
+      "clipId": "n22-117307c80446",
+      "src": "assets/voice/v13/n22-117307c80446.wav",
+      "seconds": 3.1032
+    },
+    {
+      "actorId": "cal",
+      "speaker": "卡尔",
+      "text": "我们明晚还会见面。",
+      "profile": "N22",
+      "clipId": "n22-35e821329aa8",
+      "src": "assets/voice/v13/n22-35e821329aa8.wav",
+      "seconds": 1.7452
+    },
+    {
+      "actorId": "cal",
+      "speaker": "卡尔",
+      "text": "你还会需要我的。",
+      "profile": "N22",
+      "clipId": "n22-2b81462e4ec4",
+      "src": "assets/voice/v13/n22-2b81462e4ec4.wav",
+      "seconds": 1.4357
+    },
+    {
+      "actorId": "cal",
+      "speaker": "卡尔",
+      "text": "这张多了，我退给你。再算一下剩余的。",
+      "profile": "N22",
+      "clipId": "n22-842e7be60d3c",
+      "src": "assets/voice/v13/n22-842e7be60d3c.wav",
+      "seconds": 3.8585
+    },
+    {
+      "actorId": "cal",
+      "speaker": "卡尔",
+      "text": "这不够吧？麻烦再算一下。",
+      "profile": "N22",
+      "clipId": "n22-6ae7fbd636ba",
+      "src": "assets/voice/v13/n22-6ae7fbd636ba.wav",
+      "seconds": 2.6751
+    },
+    {
+      "actorId": "cal",
+      "speaker": "卡尔",
+      "text": "你多找了。不是这个数。",
+      "profile": "N22",
+      "clipId": "n22-b89af97da100",
+      "src": "assets/voice/v13/n22-b89af97da100.wav",
+      "seconds": 2.2603
+    },
+    {
+      "actorId": "wade",
+      "speaker": "韦德",
+      "text": "还是后面。你的门昨天没有开，今天总该开了。",
+      "profile": "N22",
+      "clipId": "n22-5876dfd21306",
+      "src": "assets/voice/v13/n22-5876dfd21306.wav",
+      "seconds": 4.7259
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "我没再按第二次付款。订单应该还是待处理，尾号 2406。",
+      "profile": "N21",
+      "clipId": "n21-9171e5a91fbf",
+      "src": "assets/voice/v13/n21-9171e5a91fbf.wav",
+      "seconds": 5.8097
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "没有，只付了一次，尾号 2406，卡也是这张。",
+      "profile": "N21",
+      "clipId": "n21-1f691ba21cac",
+      "src": "assets/voice/v13/n21-1f691ba21cac.wav",
+      "seconds": 4.6971
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "油泵修好了。我带来三年前的报纸原件，复印件上的名字每次都变。收好这张，别交给自称老板的人。",
+      "profile": "N21",
+      "clipId": "n21-512e8ab7711b",
+      "src": "assets/voice/v13/n21-512e8ab7711b.wav",
+      "seconds": 9.3548
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "我留着昨晚2406的凭据。油泵的事已经处理完了，今晚只买这些。",
+      "profile": "N21",
+      "clipId": "n21-1bcae13cf8b2",
+      "src": "assets/voice/v13/n21-1bcae13cf8b2.wav",
+      "seconds": 6.6123
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "原件写的是：第八出口事故，夜班员 Daniel Reed 未归。没有第九出口。",
+      "profile": "N21",
+      "clipId": "n21-285b7ad11280",
+      "src": "assets/voice/v13/n21-285b7ad11280.wav",
+      "seconds": 6.6367
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "我还在挑东西。有什么事吗？",
+      "profile": "N21",
+      "clipId": "n21-cb6b2b44d375",
+      "src": "assets/voice/v13/n21-cb6b2b44d375.wav",
+      "seconds": 2.6511
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "这些就是我挑的商品。麻烦你了。",
+      "profile": "N21",
+      "clipId": "n21-117307c80446",
+      "src": "assets/voice/v13/n21-117307c80446.wav",
+      "seconds": 2.9907
+    },
+    {
+      "actorId": "edith",
+      "speaker": "伊迪丝",
+      "text": "我没有用过拐杖。把你哥哥的蓝线外套还给我。",
+      "profile": "N26",
+      "clipId": "n26-31556a6d7482",
+      "src": "assets/voice/v13/n26-31556a6d7482.wav",
+      "seconds": 4.0263
+    },
+    {
+      "actorId": "edith",
+      "speaker": "伊迪丝",
+      "text": "我们明晚还会见面。",
+      "profile": "N26",
+      "clipId": "n26-35e821329aa8",
+      "src": "assets/voice/v13/n26-35e821329aa8.wav",
+      "seconds": 1.6682
+    },
+    {
+      "actorId": "edith",
+      "speaker": "伊迪丝",
+      "text": "你还会需要我的。",
+      "profile": "N26",
+      "clipId": "n26-2b81462e4ec4",
+      "src": "assets/voice/v13/n26-2b81462e4ec4.wav",
+      "seconds": 1.3693
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "我不需要换证。照片一直是这样。把员工室的档案盒给我，病人等着用。",
+      "profile": "N24",
+      "clipId": "n24-5ec456d1e935",
+      "src": "assets/voice/v13/n24-5ec456d1e935.wav",
+      "seconds": 6.7595
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "我刚下班，医院里没有其他人。",
+      "profile": "N24",
+      "clipId": "n24-085e52ea2268",
+      "src": "assets/voice/v13/n24-085e52ea2268.wav",
+      "seconds": 2.6929
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "我们明晚还会见面。",
+      "profile": "N24",
+      "clipId": "n24-35e821329aa8",
+      "src": "assets/voice/v13/n24-35e821329aa8.wav",
+      "seconds": 1.668
+    },
+    {
+      "actorId": "nora",
+      "speaker": "诺拉",
+      "text": "你还会需要我的。",
+      "profile": "N24",
+      "clipId": "n24-2b81462e4ec4",
+      "src": "assets/voice/v13/n24-2b81462e4ec4.wav",
+      "seconds": 1.3689
+    },
+    {
+      "actorId": "milo",
+      "speaker": "迈洛",
+      "text": "三次。Daniel 也问了三次。你们的声音越来越像了。",
+      "profile": "N23",
+      "clipId": "n23-809363c9271c",
+      "src": "assets/voice/v13/n23-809363c9271c.wav",
+      "seconds": 4.7545
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "我今天才回来。昨天有个人穿着我的外套？Mike 已经去世三年了。你没有让她进仓库吧。",
+      "profile": "N25",
+      "clipId": "n25-9dcdce3e50b6",
+      "src": "assets/voice/v13/n25-9dcdce3e50b6.wav",
+      "seconds": 8.8598
+    },
+    {
+      "actorId": "june",
+      "speaker": "琼",
+      "text": "没有同行者。Mike 三年前死在旧桥事故里。",
+      "profile": "N25",
+      "clipId": "n25-d1a8613a8e20",
+      "src": "assets/voice/v13/n25-d1a8613a8e20.wav",
+      "seconds": 4.4866
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "现在走数了。我把旧报纸留在了柜台。",
+      "profile": "N21",
+      "clipId": "n21-d2b878684c6b",
+      "src": "assets/voice/v13/n21-d2b878684c6b.wav",
+      "seconds": 3.51
+    },
+    {
+      "actorId": "alex",
+      "speaker": "你",
+      "text": "稍等，我把证件还给你。",
+      "profile": "A21",
+      "clipId": "a21-021d075d8094",
+      "src": "assets/voice/v13/a21-021d075d8094.wav",
+      "seconds": 2.2548
+    },
+    {
+      "actorId": "alex",
+      "speaker": "你",
+      "text": "稍等，我把付款还给你。",
+      "profile": "A21",
+      "clipId": "a21-9330469d0534",
+      "src": "assets/voice/v13/a21-9330469d0534.wav",
+      "seconds": 2.2702
+    },
+    {
+      "actorId": "alex",
+      "speaker": "你",
+      "text": "稍等，我把证件和付款还给你。",
+      "profile": "A21",
+      "clipId": "a21-e737a6d475ba",
+      "src": "assets/voice/v13/a21-e737a6d475ba.wav",
+      "seconds": 2.8475
+    },
+    {
+      "actorId": "alex",
+      "speaker": "你",
+      "text": "稍等，我先结束这笔交易。",
+      "profile": "A21",
+      "clipId": "a21-c532014ce898",
+      "src": "assets/voice/v13/a21-c532014ce898.wav",
+      "seconds": 2.331
+    },
+    {
+      "actorId": "leon",
+      "speaker": "里昂",
+      "text": "能来帮我看一下吗？",
+      "profile": "N21",
+      "clipId": "n21-50034cd32099",
+      "src": "assets/voice/v13/n21-50034cd32099.wav",
+      "seconds": 1.7323
+    }
+  ],
+  "opening": [
+    {
+      "id": "opening-alex-bus",
+      "text": "这么远……还真有人半夜来买东西。",
+      "profile": "A21",
+      "voice": "Rocko (中文（中國大陸）)",
+      "rate": 178,
+      "lowCut": 95,
+      "highCut": 4600,
+      "speedFactor": 1,
+      "echo": 0,
+      "src": "assets/voice/v13/opening-alex-bus.wav",
+      "openingId": "alex-bus",
+      "maxSeconds": 3.9000000000000004,
+      "actualRate": 178,
+      "rateFit": 1,
+      "seconds": 2.8931,
+      "peak": 0.62,
+      "rms": 0.08353226961546899,
+      "sha256": "09da403184e9ae0c8729401e4d80278cd03cb70231d2aff8e8ce530e7cf88791",
+      "synthetic": true
+    },
+    {
+      "id": "opening-driver",
+      "text": "第九出口。最后一站，下车带好东西。",
+      "profile": "D21",
+      "voice": "Eddy (中文（中國大陸）)",
+      "rate": 168,
+      "lowCut": 260,
+      "highCut": 3300,
+      "speedFactor": 1,
+      "echo": 0,
+      "src": "assets/voice/v13/opening-driver.wav",
+      "openingId": "driver",
+      "maxSeconds": 4.199999999999999,
+      "actualRate": 168,
+      "rateFit": 1,
+      "seconds": 3.8221,
+      "peak": 0.62,
+      "rms": 0.06639157597749974,
+      "sha256": "344b8aac18f9edec8c17ac005dc9b1d62727782b100ef27e864c4fd9d61fe4f5",
+      "synthetic": true
+    },
+    {
+      "id": "opening-alex-sign",
+      "text": "第九出口。是这儿。",
+      "profile": "A21",
+      "voice": "Rocko (中文（中國大陸）)",
+      "rate": 178,
+      "lowCut": 95,
+      "highCut": 4600,
+      "speedFactor": 1,
+      "echo": 0,
+      "src": "assets/voice/v13/opening-alex-sign.wav",
+      "openingId": "alex-sign",
+      "maxSeconds": 1.5500000000000007,
+      "actualRate": 200,
+      "rateFit": 1.1652210884353735,
+      "seconds": 1.47,
+      "peak": 0.62,
+      "rms": 0.05584732309150256,
+      "sha256": "282fe7931134bb8d8e4b59ef21707213900d108a6e242da4357523f3ae1ac065",
+      "synthetic": true
+    },
+    {
+      "id": "opening-alex-walk",
+      "text": "灯还亮着。至少没来晚。",
+      "profile": "A21",
+      "voice": "Rocko (中文（中國大陸）)",
+      "rate": 178,
+      "lowCut": 95,
+      "highCut": 4600,
+      "speedFactor": 1,
+      "echo": 0,
+      "src": "assets/voice/v13/opening-alex-walk.wav",
+      "openingId": "alex-walk",
+      "maxSeconds": 3.6000000000000014,
+      "actualRate": 178,
+      "rateFit": 1,
+      "seconds": 2.2964,
+      "peak": 0.62,
+      "rms": 0.08062279756735757,
+      "sha256": "2356a85c31135c509f335f4e8c084c6bd984b98ff1cde125179647852a4a3dfb",
+      "synthetic": true
+    },
+    {
+      "id": "opening-ben-1",
+      "text": "你就是亚历克斯？制服在里面。钥匙给你。",
+      "profile": "B21",
+      "voice": "Reed (中文（中國大陸）)",
+      "rate": 168,
+      "lowCut": 85,
+      "highCut": 5400,
+      "speedFactor": 1,
+      "echo": 0.055,
+      "src": "assets/voice/v13/opening-ben-1.wav",
+      "openingId": "ben-1",
+      "maxSeconds": 4.300000000000004,
+      "actualRate": 168,
+      "rateFit": 1,
+      "seconds": 3.9998,
+      "peak": 0.62,
+      "rms": 0.08611867749433354,
+      "sha256": "60f3f2210629a0d99b22a499dde304ad04d433080e9b955b8e2e88af5334dc56",
+      "synthetic": true
+    },
+    {
+      "id": "opening-alex-uniform",
+      "text": "尺寸正好。比想象中冷。",
+      "profile": "A21",
+      "voice": "Rocko (中文（中國大陸）)",
+      "rate": 178,
+      "lowCut": 95,
+      "highCut": 4600,
+      "speedFactor": 1,
+      "echo": 0,
+      "src": "assets/voice/v13/opening-alex-uniform.wav",
+      "openingId": "alex-uniform",
+      "maxSeconds": 3.1000000000000014,
+      "actualRate": 178,
+      "rateFit": 1,
+      "seconds": 2.5815,
+      "peak": 0.62,
+      "rms": 0.06588154844003451,
+      "sha256": "4b87aee11bfce209b2e0bd9a07446f9e6be0a4ef2741d19731b70553408cadcf",
+      "synthetic": true
+    },
+    {
+      "id": "opening-ben-2",
+      "text": "我已经打卡了。后面的货车到了，老板一会儿会打电话。",
+      "profile": "B21",
+      "voice": "Reed (中文（中國大陸）)",
+      "rate": 168,
+      "lowCut": 85,
+      "highCut": 5400,
+      "speedFactor": 1,
+      "echo": 0.055,
+      "src": "assets/voice/v13/opening-ben-2.wav",
+      "openingId": "ben-2",
+      "maxSeconds": 5.149999999999999,
+      "actualRate": 168,
+      "rateFit": 1,
+      "seconds": 4.93,
+      "peak": 0.62,
+      "rms": 0.0775860289675761,
+      "sha256": "500335eb2b4a231be3c62068cf08fa9b38a88234e9ad38ecd17743f0026db776",
+      "synthetic": true
+    },
+    {
+      "id": "opening-alex-question",
+      "text": "夜里还会有很多客人吗？",
+      "profile": "A21",
+      "voice": "Rocko (中文（中國大陸）)",
+      "rate": 178,
+      "lowCut": 95,
+      "highCut": 4600,
+      "speedFactor": 1,
+      "echo": 0,
+      "src": "assets/voice/v13/opening-alex-question.wav",
+      "openingId": "alex-question",
+      "maxSeconds": 2.799999999999997,
+      "actualRate": 178,
+      "rateFit": 1,
+      "seconds": 1.9334,
+      "peak": 0.62,
+      "rms": 0.08738096206715819,
+      "sha256": "7bcdbd402b1014bf5362d7c52aac59c5c280c96923e4058efb48b21d8d3e450e",
+      "synthetic": true
+    },
+    {
+      "id": "opening-ben-reply",
+      "text": "不多。多半是赶路的人，慢慢来就行。",
+      "profile": "B21",
+      "voice": "Reed (中文（中國大陸）)",
+      "rate": 168,
+      "lowCut": 85,
+      "highCut": 5400,
+      "speedFactor": 1,
+      "echo": 0.055,
+      "src": "assets/voice/v13/opening-ben-reply.wav",
+      "openingId": "ben-reply",
+      "maxSeconds": 4.3999999999999915,
+      "actualRate": 168,
+      "rateFit": 1,
+      "seconds": 3.5309,
+      "peak": 0.62,
+      "rms": 0.08457861200233598,
+      "sha256": "b925b0e69f7cefa4a96688593310ed3cf3c8bc3460ad5ae8057cc887a8a569ca",
+      "synthetic": true
+    },
+    {
+      "id": "opening-alex-reply",
+      "text": "好，你早点回去休息。",
+      "profile": "A21",
+      "voice": "Rocko (中文（中國大陸）)",
+      "rate": 178,
+      "lowCut": 95,
+      "highCut": 4600,
+      "speedFactor": 1,
+      "echo": 0,
+      "src": "assets/voice/v13/opening-alex-reply.wav",
+      "openingId": "alex-reply",
+      "maxSeconds": 2.799999999999997,
+      "actualRate": 178,
+      "rateFit": 1,
+      "seconds": 2.0871,
+      "peak": 0.62,
+      "rms": 0.07615905376311004,
+      "sha256": "fe2b2a9f87042601f162287c7aebe53fce1798eda70d0c7a00614a8a358b353d",
+      "synthetic": true
+    },
+    {
+      "id": "opening-ben-3",
+      "text": "今晚只有你一个人。天亮见。",
+      "profile": "B21",
+      "voice": "Reed (中文（中國大陸）)",
+      "rate": 168,
+      "lowCut": 85,
+      "highCut": 5400,
+      "speedFactor": 1,
+      "echo": 0.055,
+      "src": "assets/voice/v13/opening-ben-3.wav",
+      "openingId": "ben-3",
+      "maxSeconds": 3.299999999999997,
+      "actualRate": 168,
+      "rateFit": 1,
+      "seconds": 2.8678,
+      "peak": 0.62,
+      "rms": 0.09524572379086045,
+      "sha256": "a3a33ab2b118b4b956161fc7a2ac5873b1228a8e974d07c4b87eea22e6def1ca",
+      "synthetic": true
+    },
+    {
+      "id": "opening-alex-counter",
+      "text": "先接电话，把这班熬到天亮。",
+      "profile": "A21",
+      "voice": "Rocko (中文（中國大陸）)",
+      "rate": 178,
+      "lowCut": 95,
+      "highCut": 4600,
+      "speedFactor": 1,
+      "echo": 0,
+      "src": "assets/voice/v13/opening-alex-counter.wav",
+      "openingId": "alex-counter",
+      "maxSeconds": 3.799999999999997,
+      "actualRate": 178,
+      "rateFit": 1,
+      "seconds": 2.6123,
+      "peak": 0.62,
+      "rms": 0.07277840122265962,
+      "sha256": "49163cf0a05920da15bdbc31f90c5187894d24de2f25429d2b148c3aec000994",
+      "synthetic": true
+    }
+  ]
+}
