@@ -1,0 +1,82 @@
+[
+  {
+    "id": "alex-bus",
+    "text": "这么远……还真有人半夜来买东西。",
+    "seconds": 2.853106575963719,
+    "peak": 0.58,
+    "rms": 0.07902942377035578,
+    "rateFit": 1,
+    "voice": "Rocko (中文（中國大陸）)",
+    "temporarySyntheticVoice": true
+  },
+  {
+    "id": "alex-sign",
+    "text": "第九出口。是这儿。",
+    "seconds": 1.4499773242630385,
+    "peak": 0.58,
+    "rms": 0.05259938125188567,
+    "rateFit": 1.153710219720072,
+    "voice": "Rocko (中文（中國大陸）)",
+    "temporarySyntheticVoice": true
+  },
+  {
+    "id": "alex-walk",
+    "text": "灯还亮着。至少没来晚。",
+    "seconds": 2.256371882086168,
+    "peak": 0.58,
+    "rms": 0.07610278002881767,
+    "rateFit": 1,
+    "voice": "Rocko (中文（中國大陸）)",
+    "temporarySyntheticVoice": true
+  },
+  {
+    "id": "alex-uniform",
+    "text": "尺寸正好。比想象中冷。",
+    "seconds": 2.5415419501133787,
+    "peak": 0.58,
+    "rms": 0.062036252491322635,
+    "rateFit": 1,
+    "voice": "Rocko (中文（中國大陸）)",
+    "temporarySyntheticVoice": true
+  },
+  {
+    "id": "alex-question",
+    "text": "夜里还会有很多客人吗？",
+    "seconds": 1.8933786848072562,
+    "peak": 0.58,
+    "rms": 0.08263998505345521,
+    "rateFit": 1,
+    "voice": "Rocko (中文（中國大陸）)",
+    "temporarySyntheticVoice": true
+  },
+  {
+    "id": "ben-reply",
+    "text": "不多。多半是赶路的人，慢慢来就行。",
+    "seconds": 3.4908390022675735,
+    "peak": 0.58,
+    "rms": 0.07864008770892432,
+    "rateFit": 1,
+    "voice": "Reed (中文（中國大陸）)",
+    "temporarySyntheticVoice": true
+  },
+  {
+    "id": "alex-reply",
+    "text": "好，你早点回去休息。",
+    "seconds": 2.0471201814058957,
+    "peak": 0.58,
+    "rms": 0.07196339130738615,
+    "rateFit": 1,
+    "voice": "Rocko (中文（中國大陸）)",
+    "temporarySyntheticVoice": true
+  },
+  {
+    "id": "alex-counter",
+    "text": "先接电话，把这班熬到天亮。",
+    "seconds": 2.5723356009070293,
+    "peak": 0.58,
+    "rms": 0.06863578866564532,
+    "rateFit": 1,
+    "voice": "Rocko (中文（中國大陸）)",
+    "temporarySyntheticVoice": true
+  }
+]
