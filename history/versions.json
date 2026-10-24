@@ -1,0 +1,553 @@
+{
+  "title": "EXIT NINE — 开发历程 / Development history",
+  "entries": [
+    {
+      "id": "concept",
+      "title": "策划起点：夜班辨伪",
+      "en": "The original idea",
+      "summary": "从“资料正确，身体却不对劲”的住户辨认，逐渐确定夜班工作与有限探索的方向。",
+      "changes": [
+        "先写背景、GDD与事件剧本；此阶段没有游戏程序。",
+        "确定复古低保真恐怖、单人第一人称和浏览器试玩。"
+      ],
+      "kind": "notes",
+      "play": null,
+      "summaryEn": "The starting point was an ordinary night shift: correct personal records, but behavior that did not fit a human being.",
+      "changesEn": [
+        "Background, GDD and event scripts came before the playable builds.",
+        "The direction settled on single-player, first-person observation and limited exploration in a browser."
+      ]
+    },
+    {
+      "id": "residential",
+      "title": "最早白盒：夜班来电 0.1",
+      "en": "The first playable whitebox",
+      "summary": "地点还是深夜小区。通过电话、档案、门禁和观察窗辨认住户。",
+      "changes": [
+        "完整事件00—05；两道门互锁，决定是否放行。",
+        "误放后补救、停电追踪、失败回档；基础灰盒和程序音效。"
+      ],
+      "kind": "saved",
+      "play": "builds/residential.html",
+      "summaryEn": "The first playable version still takes place in a residential complex at night.",
+      "changesEn": [
+        "Events 00–05 combine telephone calls, resident records, observation and interlocked access doors.",
+        "Includes a mistaken-admission recovery route, a power failure, pursuit and checkpoints. The scene is a functional greybox."
+      ]
+    },
+    {
+      "id": "service-area",
+      "title": "服务区原型：北松驿站 0.3",
+      "en": "The service-station prototype",
+      "summary": "搬到美国北部高速服务区，货车、后仓、营业区与加油区成为工作场地。",
+      "changes": [
+        "卸货、验货、抱箱补货、顾客辨认、假同事与加油求助。",
+        "改进开局指引和按阶段显示交互；高光对应货架格，抱箱可跑。",
+        "加入一套早期低多边形美术；此版人物和UI仍很基础。"
+      ],
+      "kind": "saved",
+      "play": "builds/service-area.html",
+      "summaryEn": "The project moves to a remote northern highway service station.",
+      "changesEn": [
+        "Introduces unloading, inspections, carrying stock, customers, a false coworker and a fuel-pump request.",
+        "Improves onboarding and contextual interactions, with an early low-poly art pass."
+      ]
+    },
+    {
+      "id": "v0-1",
+      "title": "第九出口 0.1：独立新项目",
+      "en": "A new game: EXIT NINE",
+      "summary": "保留前两个原型，另做第九出口。",
+      "changes": [
+        "重设计服务站布局与第一夜；参考夜班工作逐渐失控的节奏。",
+        "不是原作资产或地图的直接移植；这一阶段未找到完整代码快照。"
+      ],
+      "kind": "notes",
+      "play": null,
+      "summaryEn": "EXIT NINE becomes a separate project, preserving both earlier prototypes.",
+      "changesEn": [
+        "A new shop layout and first night establish the rhythm of routine work becoming unsafe.",
+        "A complete executable snapshot of this stage was not retained."
+      ]
+    },
+    {
+      "id": "v0-2",
+      "title": "0.2：人物比例与暖光",
+      "en": "People and warmer light",
+      "summary": "围绕人物真实感、黄色店灯与整体复古质感重新迭代。",
+      "changes": [
+        "调整五官、衣服、人物比例和灯光；补充F2流程测试。"
+      ],
+      "kind": "notes",
+      "play": null,
+      "summaryEn": "A visual pass focuses on human proportions, faces and warmer shop lighting.",
+      "changesEn": [
+        "Adds development flow checks. Only records of this stage survive."
+      ]
+    },
+    {
+      "id": "v0-3",
+      "title": "0.3：让异常发生在现场",
+      "en": "Anomalies in the scene",
+      "summary": "从弹窗和文字提示转向面对面观察。",
+      "changes": [
+        "加入多样人物脸部素材与异常动作；改善抓取和收银交互。",
+        "核验身份与现实动作相互补充。"
+      ],
+      "kind": "notes",
+      "play": null,
+      "summaryEn": "Anomalies move from dialogue boxes into the physical scene.",
+      "changesEn": [
+        "Distinct face textures, body behavior and improved grabbing support face-to-face observation."
+      ]
+    },
+    {
+      "id": "v0-4",
+      "title": "0.4：营业与多名顾客",
+      "en": "A functioning shop",
+      "summary": "从一个人进门直接交钱，改成挑选、排队与交易。",
+      "changes": [
+        "逐件扫描、现金、找零；增加第二、第三晚与收益。",
+        "加入门、放货、CCTV等不同声音。"
+      ],
+      "kind": "notes",
+      "play": null,
+      "summaryEn": "Customers begin browsing and queuing rather than immediately handing over money.",
+      "changesEn": [
+        "Item scanning, cash, change, shop revenue and the second and third nights are added.",
+        "Doors, stocking and CCTV gain distinct sounds."
+      ]
+    },
+    {
+      "id": "v0-5",
+      "title": "0.5：柜台与交互整理",
+      "en": "Counter and interaction fixes",
+      "summary": "降低拿取现金和找零的操作负担。",
+      "changes": [
+        "调整L形柜台、固定找零视角、自动给零钱。",
+        "修门和房间的穿模、对话位置、重复动作与配饰。"
+      ],
+      "kind": "notes",
+      "play": null,
+      "summaryEn": "The counter and transaction flow are made easier to use.",
+      "changesEn": [
+        "An L-shaped counter, a fixed change view and automatic handover of selected money reduce friction.",
+        "Door collisions, dialogue placement and repeated character actions are revised."
+      ]
+    },
+    {
+      "id": "v0-6",
+      "title": "0.6：更细的动作与表情",
+      "en": "Animation and expressions",
+      "summary": "正常人更自然，伪人异常更有差异。",
+      "changes": [
+        "结账只高光当前步骤；不直接提示正确找零。",
+        "改进转身、抓取、五官与暴露后的表现。"
+      ],
+      "kind": "notes",
+      "play": null,
+      "summaryEn": "Normal movement and exposed impostor expressions receive more attention.",
+      "changesEn": [
+        "Only the current checkout action is highlighted; the correct change is not revealed.",
+        "Turning, gripping, faces and transformation behavior are refined."
+      ]
+    },
+    {
+      "id": "v0-7",
+      "title": "0.7：步态、异化与后院",
+      "en": "Gaits, transformations and the rear route",
+      "summary": "扩充正常步态和伪人形态，增强电闸路线的压迫感。",
+      "changes": [
+        "推进12种步态与10种异化轮廓，加入不同程度的抽搐。",
+        "丰富杂草、垃圾桶、杂物和微弱引路光源。"
+      ],
+      "kind": "notes",
+      "play": null,
+      "summaryEn": "More human gait variants and distinct transformed silhouettes are developed.",
+      "changesEn": [
+        "Head twitches, dense vegetation, bins, debris and faint lights make the breaker route more oppressive."
+      ]
+    },
+    {
+      "id": "v0-8",
+      "title": "0.8：真正不同的商品",
+      "en": "Distinct supermarket products",
+      "summary": "三类商品不再只靠同一个方块换贴图。",
+      "changes": [
+        "三类各十种商品包装与不同结构；饮料、罐头、纸盒等有轮廓差异。",
+        "放大找零数字、允许撤回；调整柜台方向与正门位置。"
+      ],
+      "kind": "saved",
+      "play": "builds/v0-8.html",
+      "summaryEn": "Products gain genuinely different silhouettes as well as packaging.",
+      "changesEn": [
+        "Thirty products span three categories: bottles, cans, cartons and other shapes.",
+        "Change digits become clearer, an undo option is added, and the counter and entrance are repositioned."
+      ]
+    },
+    {
+      "id": "v0-9",
+      "title": "0.9：设备、门与仓库扩展",
+      "en": "Devices, doors and a larger stockroom",
+      "summary": "扩展实体工具、身份核验和后仓求生。",
+      "changes": [
+        "望远镜、当时仍保留的扫描平板、自动玻璃门与钥匙抽屉。",
+        "仓库扩建，员工室移到侧边；木板封门取代绊线。",
+        "新增角色配饰、身份证头像与条形码，车辆和店面商品更丰富。"
+      ],
+      "kind": "saved",
+      "play": "builds/v0-9.html",
+      "summaryEn": "Physical tools, ID verification and stockroom survival expand.",
+      "changesEn": [
+        "This historical build still contains the scanner tablet, alongside binoculars, automatic glass doors and the key drawer.",
+        "The larger stockroom, side staff room and board barricades replace the tripwire idea."
+      ]
+    },
+    {
+      "id": "v0-10",
+      "title": "0.10：卷帘门与真实柜台",
+      "en": "Roller shutter and counter equipment",
+      "summary": "修正卸货门被墙挡住的问题，重做日常设备。",
+      "changes": [
+        "带内外开关的卷帘门；新增营业区到后仓的第二扇门。",
+        "嵌入式扫码窗、CRT电脑、收银机、电话、冷柜与旋转架。",
+        "拿证件对电脑直接读卡；拒绝顾客时自动归还证件和退款。"
+      ],
+      "kind": "saved",
+      "play": "builds/v0-10.html",
+      "summaryEn": "The loading entrance becomes a roller shutter with switches, and a second staff door is added.",
+      "changesEn": [
+        "A recessed scanner, CRT computer, cash register, telephone, fridges and rotating racks improve the workplace.",
+        "IDs can be read at the computer; rejecting a customer returns documents and refunds money."
+      ]
+    },
+    {
+      "id": "v0-11",
+      "title": "0.11：末班公交与氛围音乐",
+      "en": "The last bus and ambience",
+      "summary": "加入乘公交抵达、员工制服与上一班同事交接。",
+      "changes": [
+        "找齐金额后自动结束交易，不再等交小票。",
+        "配乐经过多轮试听，最终选择偏冷、压迫的第三版氛围。",
+        "这一还原版使用保留下来的已选声音素材。"
+      ],
+      "kind": "restored",
+      "play": "builds/v0-11.html",
+      "summaryEn": "The last bus, uniform change and handover become the opening sequence.",
+      "changesEn": [
+        "Transactions end when the correct amount is reached, without a separate receipt step.",
+        "The music went through multiple auditions. This reconstruction uses the retained, approved audio resources."
+      ]
+    },
+    {
+      "id": "v0-12",
+      "title": "0.12：开场电影镜头与引导",
+      "en": "Opening camera work and guidance",
+      "summary": "开场公交、换衣、交班和到柜台之间的衔接更完整。",
+      "changes": [
+        "重新安排远中近景，缩短下车动作，无缝进入操作。",
+        "动态光源开关；前几次交互高光逐渐减弱。"
+      ],
+      "kind": "restored",
+      "play": "builds/v0-12.html",
+      "summaryEn": "The opening camera work becomes more deliberate, from bus arrival to the counter.",
+      "changesEn": [
+        "Getting off the bus is shortened, control returns seamlessly, and a dynamic-lighting option is added.",
+        "Early interaction highlights gradually become less prominent."
+      ]
+    },
+    {
+      "id": "v0-13",
+      "title": "0.13：角色声线整合",
+      "en": "Character voice integration",
+      "summary": "保留用户喜欢的合成音色，为各角色分配固定声音。",
+      "changes": [
+        "接入已选司机、同事、主角和顾客声线。",
+        "从0.13.1快照结合此前备份还原。"
+      ],
+      "kind": "restored",
+      "play": "builds/v0-13.html",
+      "summaryEn": "The selected synthetic character voices are integrated.",
+      "changesEn": [
+        "The driver, Ben and Alex use D21, B21 and A21; customers receive different fixed voices.",
+        "Restored using the later snapshot and the saved earlier files."
+      ]
+    },
+    {
+      "id": "v0-13-1",
+      "title": "0.13.1：已选声线与对白修复",
+      "en": "Selected voices and dialogue fixes",
+      "summary": "司机D21、同事B21、主角A21及不同购物NPC声线接入。",
+      "changes": [
+        "配音队列、字幕时长与中断/续播；修复重复台词和流程问题。",
+        "仍是三晚剧情重写之前的故事。"
+      ],
+      "kind": "restored",
+      "play": "builds/v0-13-1.html",
+      "summaryEn": "Dialogue playback and continuity are repaired after voice integration.",
+      "changesEn": [
+        "Adjusts queues, subtitle duration, interruptions and repeated lines.",
+        "This is the story before the later three-night rewrite."
+      ]
+    },
+    {
+      "id": "v0-14-1",
+      "title": "0.14.1：三晚主线重写",
+      "en": "Three connected nights",
+      "summary": "挣钱动机、声音模仿、风雪封路与真假接应串起三晚。",
+      "changes": [
+        "第一晚：假调班电话与柜台录像。",
+        "第二晚：停电后的补货声、人影对峙与变形离开。",
+        "第三晚：停止营业、核实接应、独自求生；保留开放尾声。"
+      ],
+      "kind": "restored",
+      "play": "builds/v0-14-1.html",
+      "summaryEn": "The main story is rebuilt around wages, copied voices, a snowbound road and a false pickup.",
+      "changesEn": [
+        "Night one reveals a fraudulent shift-change call; night two confronts the figure stocking shelves in the dark.",
+        "Night three closes the shop and focuses on verification, survival and leaving, with an open-ended coda."
+      ]
+    },
+    {
+      "id": "v0-14-2",
+      "title": "0.14.2：删减与天色变化",
+      "en": "Streamlining and dawn",
+      "summary": "减少多余设备与重复交互，调整天亮和雪景。",
+      "changes": [
+        "移除扫描平板；交谈开场白不再反复播放。",
+        "找零过多只显示文字；四点至六点逐渐变亮。"
+      ],
+      "kind": "restored",
+      "play": "builds/v0-14-2.html",
+      "summaryEn": "Unnecessary devices and repeated interactions are removed.",
+      "changesEn": [
+        "The scanner tablet is cut; conversations no longer restart their opening line on every interaction.",
+        "Excess change uses a text prompt, while dawn and snow presentation are adjusted."
+      ]
+    },
+    {
+      "id": "v0-14-3",
+      "title": "0.14.3：对白与风雪复测",
+      "en": "Dialogue and snow fixes",
+      "summary": "继续核对三晚衔接、剧情时序和对白播放。",
+      "changes": [
+        "修复重复字幕、音频被切断、转场后的操作时机。",
+        "保留原来的主线，不重新改故事。"
+      ],
+      "kind": "restored",
+      "play": "builds/v0-14-3.html",
+      "summaryEn": "Dialogue, snow and night-to-night continuity are checked again.",
+      "changesEn": [
+        "Fixes repeated subtitles, cut-off speech and the timing of control after cinematic scenes."
+      ]
+    },
+    {
+      "id": "v0-14-4",
+      "title": "0.14.4：连续流程复测",
+      "en": "Continuous-play fixes",
+      "summary": "从第一晚到第三晚连续检查正常流程。",
+      "changes": [
+        "检查存档恢复、任务显示和分支状态。"
+      ],
+      "kind": "restored",
+      "play": "builds/v0-14-4.html",
+      "summaryEn": "A continuous-play pass checks the complete three-night route.",
+      "changesEn": [
+        "Focuses on checkpoint restoration, objectives and branch state."
+      ]
+    },
+    {
+      "id": "v0-14-5",
+      "title": "0.14.5：易错分支与场景",
+      "en": "Edge cases and scene polish",
+      "summary": "重点处理找零撤回、拒客、停电门和读档。",
+      "changes": [
+        "加强夜间切换、电闸演出与控制恢复。",
+        "增加冷柜、旋转架和后仓货架，检查碰撞。"
+      ],
+      "kind": "restored",
+      "play": "builds/v0-14-5.html",
+      "summaryEn": "Tests change undo, rejected customers, power-failure doors and saved-game recovery.",
+      "changesEn": [
+        "Improves transitions and control handoff; adds shop displays while checking collisions."
+      ]
+    },
+    {
+      "id": "v0-14-6",
+      "title": "0.14.6：交互高光与生存",
+      "en": "Highlights and survival",
+      "summary": "加强互动反馈、车辆进出和后期自保。",
+      "changes": [
+        "八发手枪、生命值、食品饮水与柜子躲藏。",
+        "货车进出、更多货架、员工室与死亡惊吓。"
+      ],
+      "kind": "restored",
+      "play": "builds/v0-14-6.html",
+      "summaryEn": "Interaction highlights, vehicle movement and survival feedback become more readable.",
+      "changesEn": [
+        "Adds eight handgun rounds, HP, food and water recovery, and a hiding cabinet.",
+        "Delivery-truck movement, the staff room and the death scare are revised."
+      ]
+    },
+    {
+      "id": "v0-15",
+      "title": "0.15：监控、测试区与后院",
+      "en": "CCTV, tools and the rear route",
+      "summary": "重新组织测试功能，分开卸货区和电闸路线。",
+      "changes": [
+        "监控分成店内、后仓、后仓外、店前外四路。",
+        "增加茂密草丛、杂物遮挡和交班演出；控制渲染负担。"
+      ],
+      "kind": "restored",
+      "play": "builds/v0-15.html",
+      "summaryEn": "CCTV is reorganized into four views: shop, stockroom, rear exterior and front exterior.",
+      "changesEn": [
+        "Development checks move into a dedicated F2 testing section.",
+        "Dense vegetation and debris separate the loading yard from the breaker route, alongside rendering work."
+      ]
+    },
+    {
+      "id": "v0-16",
+      "title": "0.16：连续三晚与新住处",
+      "en": "Three-night flow and the new home",
+      "summary": "强化不同夜晚的环境镜头和离开后的结局。",
+      "changes": [
+        "两晚过渡不再雷同；第三晚新住处结局增加演出。",
+        "后院路线、装饰、货车离场与公告板地图。"
+      ],
+      "kind": "restored",
+      "play": "builds/v0-16.html",
+      "summaryEn": "The three-night flow and the ending at the new home receive a further pass.",
+      "changesEn": [
+        "Night transitions use different environmental shots rather than repeating the same scene.",
+        "Adds the rear-yard barrier, truck exit details, surrounding scenery and the physical noticeboard map."
+      ]
+    },
+    {
+      "id": "v0-17-2",
+      "title": "0.17.2：节奏、躲藏与开场修复",
+      "en": "Pacing, hiding and opening fixes",
+      "summary": "先固定内容，改善可玩性而不是继续添加系统。",
+      "changes": [
+        "营业节奏与辨伪线索调整；柜子不再是无条件安全区。",
+        "多人格试玩记录、油泵授权、公交和开场店灯修复。"
+      ],
+      "kind": "restored",
+      "play": "builds/v0-17-2.html",
+      "summaryEn": "The focus shifts from adding systems to improving the existing experience.",
+      "changesEn": [
+        "Adjusts shop pacing and observation clues; hiding is no longer automatically safe when seen.",
+        "Includes fuel-pump authorization, bus-model and opening-light fixes."
+      ]
+    },
+    {
+      "id": "v0-18",
+      "title": "0.18：碰撞与建筑周边",
+      "en": "Collision and surroundings",
+      "summary": "当前玩家版之前的开发版本。",
+      "changes": [
+        "集中检查门、物件与行走区域的碰撞。",
+        "补充建筑左侧和周边环境装饰。"
+      ],
+      "kind": "saved",
+      "play": "builds/v0-18.html",
+      "summaryEn": "The development build immediately before the player edition.",
+      "changesEn": [
+        "A collision pass checks doors, objects and movement areas, with more detail around the building and its left side."
+      ]
+    },
+    {
+      "id": "ui1",
+      "title": "玩家版 UI1",
+      "en": "Player edition UI1",
+      "summary": "从开发工程中独立出玩家试玩包。",
+      "changes": [
+        "移除F2与测试入口，保留三晚流程与独立玩家存档。"
+      ],
+      "kind": "saved",
+      "play": "builds/ui1.html",
+      "summaryEn": "The first separate player package removes F2 and development entry points.",
+      "changesEn": [
+        "Keeps the three-night campaign and a separate player save namespace."
+      ]
+    },
+    {
+      "id": "ui2",
+      "title": "玩家版 UI2",
+      "en": "Player edition UI2",
+      "summary": "尝试实物电脑菜单与极简游戏内HUD。",
+      "changes": [
+        "菜单放进收银台CRT电脑，任务和物品提示减少常驻显示。"
+      ],
+      "kind": "saved",
+      "play": "builds/ui2.html",
+      "summaryEn": "The menu moves onto the physical CRT, with a minimal in-game HUD.",
+      "changesEn": [
+        "Task and inventory information become less permanently visible."
+      ]
+    },
+    {
+      "id": "ui3",
+      "title": "玩家版 UI3",
+      "en": "Player edition UI3",
+      "summary": "恢复外景标题页，开始按钮与设置留在电脑。",
+      "changes": [
+        "先进入电脑菜单，再真正开始游戏；此版使用暗场转场。"
+      ],
+      "kind": "saved",
+      "play": "builds/ui3.html",
+      "summaryEn": "The exterior title screen returns; settings and the actual Start button remain on the computer.",
+      "changesEn": [
+        "This version uses a dark transition between the two menu views."
+      ]
+    },
+    {
+      "id": "ui4",
+      "title": "玩家版 UI4",
+      "en": "Player edition UI4",
+      "summary": "从暗场改成可见的连续镜头。",
+      "changes": [
+        "穿过玻璃，避开实体；此版移镜约9.4秒。"
+      ],
+      "kind": "saved",
+      "play": "builds/ui4.html",
+      "summaryEn": "The dark cut is replaced with a visible camera journey through the glass.",
+      "changesEn": [
+        "The camera avoids solid objects, but takes approximately 9.4 seconds."
+      ]
+    },
+    {
+      "id": "ui5",
+      "title": "玩家版 UI5",
+      "en": "Player edition UI5",
+      "summary": "把转场缩短到两秒。",
+      "changes": [
+        "按钮约0.3秒淡入；此版仍有较明显的路径转向。"
+      ],
+      "kind": "saved",
+      "play": "builds/ui5.html",
+      "summaryEn": "The camera journey is shortened to two seconds.",
+      "changesEn": [
+        "Buttons fade in quickly after arrival, although the route still has a noticeable turn."
+      ]
+    },
+    {
+      "id": "latest",
+      "title": "最新玩家版：0.18.0 · UI6",
+      "en": "Current player edition",
+      "summary": "两秒连续滑到电脑前，直接穿过玻璃；从头到尾平滑转向，不再突然拐弯。",
+      "changes": [
+        "保持原来的外景标题页；电脑内调整设置并开始游戏。",
+        "停稳后按钮淡入；反向返回同样平滑。",
+        "保留已确认的剧情、配音、配乐和三晚流程。"
+      ],
+      "kind": "live",
+      "play": "../",
+      "summaryEn": "The current player edition glides directly through the glass to the computer in two seconds.",
+      "changesEn": [
+        "One continuous curve and gradual rotation replace the abrupt turn; buttons appear after the camera settles.",
+        "The confirmed three-night story, voices and music remain intact."
+      ]
+    }
+  ]
+}
