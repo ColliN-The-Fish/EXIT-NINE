@@ -1,0 +1,2 @@
+// Four brief passes in ten minutes, with long, uneven stretches of empty road.
+export function highwayTraffic(time,night=1){const cycle=Math.floor(time/600),phase=time%600,starts=[68,201,359,507].map(t=>t+(night-1)*9);for(let i=0;i<starts.length;i++){const elapsed=phase-starts[i];if(elapsed>=0&&elapsed<10){const direction=(cycle+i+night)%2?1:-1;return{id:night+':'+cycle+':'+i,x:direction*(-65+elapsed*13),z:direction>0?-23.2:-26.7,direction,variant:i%2};}}return null;}
