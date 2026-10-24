@@ -1,0 +1,241 @@
+{
+  "revision": 3,
+  "selected": "ambient",
+  "originalComposition": true,
+  "sampleRate": 22050,
+  "styles": [
+    {
+      "id": "ambient",
+      "title": "沿用第一版 · 氛围修订",
+      "description": "营业直接保留第一版原声；其余三段沿用暗色合成质感，只改变不安、空旷与追逐压力，不加入活泼节拍。",
+      "cues": [
+        {
+          "state": "business",
+          "label": "营业",
+          "src": "assets/music/v3/ambient-business.wav",
+          "description": "直接保留第一版「冷灯与磁带」营业原音频：暗色合成器、低沉和声、轻微磁带底噪。",
+          "key": "第一版原样保留",
+          "bpm": null,
+          "seconds": 28.235283446712018,
+          "channels": 1,
+          "peak": 0.513946533203125,
+          "rms": 0.11995864118731522,
+          "sha256": "11f9e69de3cb9d761a3d1929bc2f32644db7bfe1e9030c5dd2b02eff1e995e50"
+        },
+        {
+          "state": "doubt",
+          "label": "疑点出现",
+          "src": "assets/music/v3/ambient-doubt.wav",
+          "description": "保持第一版的暗色合成音色，换成停滞低音与缓慢错拍的半音摩擦；没有鼓点，没有连续旋律。",
+          "key": "C♯低音／相邻半音",
+          "bpm": null,
+          "seconds": 48.0,
+          "channels": 1,
+          "peak": 0.238037109375,
+          "rms": 0.0849915969939167,
+          "sha256": "05c947f471c23df899934e21f990115a457a8b0bc8be8ad632ae0aa19e9a188f"
+        },
+        {
+          "state": "outage",
+          "label": "停电与探路",
+          "src": "assets/music/v3/ambient-outage.wav",
+          "description": "撤掉拨弦和和弦循环；只有远处低频、空气底噪、孤立金属共鸣及很长的留白。",
+          "key": "F♯低频／稀疏共鸣",
+          "bpm": null,
+          "seconds": 48.0,
+          "channels": 1,
+          "peak": 0.293060302734375,
+          "rms": 0.0499974968293658,
+          "sha256": "70adda6c2b29255715855cf23f1f812fb128474f543574cbcb175acd2d107438"
+        },
+        {
+          "state": "chase",
+          "label": "追逐",
+          "src": "assets/music/v3/ambient-chase.wav",
+          "description": "低频逐渐挤压，异步闷响、倒吸噪声和失谐持续音叠加；没有爵士鼓、进行曲或动作片旋律。",
+          "key": "C与C♯／无固定节拍",
+          "bpm": null,
+          "seconds": 40.0,
+          "channels": 1,
+          "peak": 0.436553955078125,
+          "rms": 0.11499454734244476,
+          "sha256": "e0beaa7340e3a67bdda057ce2dcb19df4a7e282e37eceb50adecbd11550e58db"
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "tape",
+      "title": "冷灯与磁带",
+      "description": "温暖但不安的低保真合成器，稀疏琴音与缓慢呼吸的和声。",
+      "bpm": 68,
+      "cues": [
+        {
+          "state": "business",
+          "label": "营业",
+          "src": "assets/music/v1/tape-business.wav",
+          "description": "第一版原样对照，未改编。",
+          "reference": true,
+          "seconds": 28.235283446712018,
+          "channels": 1,
+          "peak": 0.513946533203125,
+          "rms": 0.11995864118731522,
+          "sha256": "11f9e69de3cb9d761a3d1929bc2f32644db7bfe1e9030c5dd2b02eff1e995e50"
+        },
+        {
+          "state": "doubt",
+          "label": "疑点出现",
+          "src": "assets/music/v1/tape-doubt.wav",
+          "description": "第一版原样对照，未改编。",
+          "reference": true,
+          "seconds": 28.235283446712018,
+          "channels": 1,
+          "peak": 0.4864501953125,
+          "rms": 0.11996498038086623,
+          "sha256": "aff2561271a3af511c167793e87d2b39eaafac19cb6f0b51eb301efa2cc88448"
+        },
+        {
+          "state": "outage",
+          "label": "停电与探路",
+          "src": "assets/music/v1/tape-outage.wav",
+          "description": "第一版原样对照，未改编。",
+          "reference": true,
+          "seconds": 28.235283446712018,
+          "channels": 1,
+          "peak": 0.589080810546875,
+          "rms": 0.11995923783107532,
+          "sha256": "d5e84252097c506ea723b0f5cf3a0c165e862840b8142b3c4ec9e8231ae81137"
+        },
+        {
+          "state": "chase",
+          "label": "追逐",
+          "src": "assets/music/v1/tape-chase.wav",
+          "description": "第一版原样对照，未改编。",
+          "reference": true,
+          "seconds": 28.235283446712018,
+          "channels": 1,
+          "peak": 0.719970703125,
+          "rms": 0.12852245774401463,
+          "sha256": "1de6f9688f570274a0f57ab3ce7cd696ea86f0d032e7fc7d344fad2c557faa8d"
+        }
+      ],
+      "reference": true
+    },
+    {
+      "id": "piano",
+      "title": "空台与旧钢琴",
+      "description": "旧钢琴与低音弦垫，留白更多，偏孤独、叙事和悬疑。",
+      "bpm": 58,
+      "cues": [
+        {
+          "state": "business",
+          "label": "营业",
+          "src": "assets/music/v1/piano-business.wav",
+          "description": "第一版原样对照，未改编。",
+          "reference": true,
+          "seconds": 33.10344671201814,
+          "channels": 1,
+          "peak": 0.640869140625,
+          "rms": 0.11997734015945885,
+          "sha256": "b1c3bc237a8e60d758a5ae23e99ae8ef0f81fe85a51d879f077a07f83079f770"
+        },
+        {
+          "state": "doubt",
+          "label": "疑点出现",
+          "src": "assets/music/v1/piano-doubt.wav",
+          "description": "第一版原样对照，未改编。",
+          "reference": true,
+          "seconds": 33.10344671201814,
+          "channels": 1,
+          "peak": 0.580841064453125,
+          "rms": 0.11996883933832311,
+          "sha256": "3286bc100ca23d7da96339f1fa675e6dc06b81e7a443364bb1d71e5993a13115"
+        },
+        {
+          "state": "outage",
+          "label": "停电与探路",
+          "src": "assets/music/v1/piano-outage.wav",
+          "description": "第一版原样对照，未改编。",
+          "reference": true,
+          "seconds": 33.10344671201814,
+          "channels": 1,
+          "peak": 0.6859130859375,
+          "rms": 0.11998090564087613,
+          "sha256": "400fc5c53db8b9a80c5dcfa4f29621682c87325dd6b0d9b469d01649b3e7722c"
+        },
+        {
+          "state": "chase",
+          "label": "追逐",
+          "src": "assets/music/v1/piano-chase.wav",
+          "description": "第一版原样对照，未改编。",
+          "reference": true,
+          "seconds": 33.10344671201814,
+          "channels": 1,
+          "peak": 0.719970703125,
+          "rms": 0.12181128973675981,
+          "sha256": "f33d76fd360ba4d2939eed88abbcb3d26d00f5416818c447abcabccdd14e3ca0"
+        }
+      ],
+      "reference": true
+    },
+    {
+      "id": "pulse",
+      "title": "脉冲与铁锈",
+      "description": "克制的电子脉冲与颗粒节奏，偏压迫和生存，旋律最少。",
+      "bpm": 76,
+      "cues": [
+        {
+          "state": "business",
+          "label": "营业",
+          "src": "assets/music/v1/pulse-business.wav",
+          "description": "第一版原样对照，未改编。",
+          "reference": true,
+          "seconds": 25.263174603174605,
+          "channels": 1,
+          "peak": 0.49835205078125,
+          "rms": 0.11983455278351508,
+          "sha256": "f3044813cf457ca46aedb05c0c4b3fceff34dc3df76c20c7fa6da2107c0df57a"
+        },
+        {
+          "state": "doubt",
+          "label": "疑点出现",
+          "src": "assets/music/v1/pulse-doubt.wav",
+          "description": "第一版原样对照，未改编。",
+          "reference": true,
+          "seconds": 25.263174603174605,
+          "channels": 1,
+          "peak": 0.549774169921875,
+          "rms": 0.11986991167102111,
+          "sha256": "b91b4d3759d1b36e5ffe318eef0e180a3fa8b91e728e34f656e88b5fd0a0d686"
+        },
+        {
+          "state": "outage",
+          "label": "停电与探路",
+          "src": "assets/music/v1/pulse-outage.wav",
+          "description": "第一版原样对照，未改编。",
+          "reference": true,
+          "seconds": 25.263174603174605,
+          "channels": 1,
+          "peak": 0.588775634765625,
+          "rms": 0.11998509358097195,
+          "sha256": "e3c18471af7db9185b8179931096311a9d551cd58a6837c95e8294cde9bdb71b"
+        },
+        {
+          "state": "chase",
+          "label": "追逐",
+          "src": "assets/music/v1/pulse-chase.wav",
+          "description": "第一版原样对照，未改编。",
+          "reference": true,
+          "seconds": 25.263174603174605,
+          "channels": 1,
+          "peak": 0.668365478515625,
+          "rms": 0.12473419931216966,
+          "sha256": "d959dfacc376d1732632f767f4aa78319d901ce3fd49b0bbf5fba74e4759f293"
+        }
+      ],
+      "reference": true
+    }
+  ],
+  "userApproved": true
+}
