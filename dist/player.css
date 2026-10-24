@@ -1,0 +1,94 @@
+:root{--terminal:#bcc5ad;--terminal-dim:#77856f;font-family:'Courier New','PingFang SC',monospace}
+/* The menu is projected onto the existing 3D computer, rather than a webpage over it. */
+#screen{position:fixed;inset:0;display:block;padding:0;overflow:hidden;background:radial-gradient(ellipse at 50% 53%,transparent 29%,#02060455 75%,#020503aa);pointer-events:none;isolation:isolate}
+#screen[data-ready=false]:before{content:'正在接通值班终端…';position:absolute;inset:0;display:grid;place-items:center;background:#030605;color:#8d9c81;font-size:13px;letter-spacing:.12em}
+#terminal-surface{position:absolute;left:0;top:0;width:900px;height:654px;transform-origin:0 0;pointer-events:auto;background:#08110d;color:var(--terminal);overflow:hidden;border-radius:9px;font:25px/1.5 'Courier New','PingFang SC',monospace;box-shadow:inset 0 0 70px #0008;opacity:.99}
+#screen[data-ready=false] #terminal-surface{visibility:hidden}
+#terminal-surface:after{content:'';position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:repeating-linear-gradient(0deg,transparent 0 3px,#0000000f 4px);box-shadow:inset 0 0 35px #0005}
+.terminal-header{position:absolute;left:40px;right:40px;top:25px;display:flex;align-items:center;justify-content:space-between;color:var(--terminal-dim);font-size:20px;border-bottom:1px solid #75846a50;padding-bottom:12px}
+.terminal-mark{letter-spacing:.16em;font:20px monospace}
+[data-menu-view]{position:absolute;inset:82px 42px 45px;overflow:auto;scrollbar-width:thin;scrollbar-color:#53624c #0b150f}
+[data-menu-view][hidden]{display:none!important}
+[data-menu-view=home]{padding-top:14px}
+#terminal-surface h1,#terminal-surface h2{font:normal 40px/1.3 'Courier New','PingFang SC',monospace;letter-spacing:.05em;margin:12px 0 15px;color:#cad0bd;text-shadow:0 0 14px #c1d3a316}
+#terminal-surface h2{font-size:34px;margin:0 0 12px;outline:none}
+.eyebrow{font:19px 'Courier New','PingFang SC',monospace;letter-spacing:.08em;color:#89977b}
+#menu-copy{font-size:23px;line-height:1.6;margin:0 0 22px;color:#98a68a}
+#menu-actions{display:grid;gap:4px;margin:0;width:100%}
+#terminal-surface button{font:inherit;text-align:left;color:#aebda0;border:0;background:transparent;border-radius:0;box-shadow:none;padding:7px 12px;transition:color .12s,background .12s;min-width:0;cursor:pointer}
+#menu-actions button{position:relative;min-height:48px;padding-left:28px;font-size:28px;width:100%}
+#menu-actions button:before{content:'›';position:absolute;left:7px;opacity:0}
+#terminal-surface button.primary{background:none;color:#d0d9be;font-weight:normal}
+#terminal-surface button:hover,#terminal-surface button:focus-visible{color:#e0e9cd;background:#a6b78e17;outline:none}
+#menu-actions button:hover:before,#menu-actions button:focus-visible:before{opacity:1}
+#terminal-surface button:disabled{color:#6c7b63;cursor:wait;background:none;opacity:.8}
+#terminal-surface select,#terminal-surface input{font:inherit;color:inherit;accent-color:#9ead8c}
+#terminal-surface select{padding:3px 10px;border:1px solid #75886a70;background:#101c14;border-radius:0;min-width:245px;font-size:23px}
+#terminal-surface :is(input,select):focus-visible{outline:2px solid #c5d2b2;outline-offset:3px}
+.menu-secondary{display:flex;gap:24px;margin:14px 0 24px;padding-top:10px;border-top:1px solid #80916d45}
+.menu-secondary button{font-size:23px!important;padding-left:0!important}
+#desk-balance{font-size:20px;color:#9aa88b;margin:0 0 8px}
+#save-status{font-size:18px;color:#6f8067;margin:0}
+.terminal-footer{position:absolute;bottom:15px;left:42px;right:42px;display:flex;justify-content:space-between;font-size:17px;color:#5f7059;border-top:1px solid #75846a30;padding-top:8px}
+.settings{display:grid;gap:0;padding:0;margin:0}
+.settings label{display:flex;align-items:center;gap:14px;justify-content:space-between;min-height:55px;border-bottom:1px solid #75846a30;font-size:24px;color:#b1bea4}
+.settings small{display:block;font-size:17px;color:#74896b;line-height:1.4}.settings input[type=range]{width:245px;margin-left:auto;accent-color:#a6b58e}.settings input[type=checkbox]{height:25px;width:25px;accent-color:#a6b58e}.settings output{width:64px;text-align:right;font:21px monospace;color:#859779}
+.menu-note{font-size:18px;line-height:1.65;color:#7e9272;margin:14px 0 5px}
+.back-button{margin-left:-12px}
+.control-list{margin:0;font-size:23px}.control-list>div{display:flex;gap:14px;min-height:41px;border-bottom:1px solid #75846a25;align-items:center}.control-list dt{width:230px;flex:none;color:#8ca27f}.control-list dd{margin:0;color:#afbea0;font-size:22px}
+.confirmation-copy{line-height:2;margin:25px 0 45px;font-size:26px}.confirm-actions{display:flex;gap:34px}
+/* Pausing keeps the real player's scene; the controls become a modest staff slip. */
+#screen[data-mode=paper]{background:#03060570;display:flex;align-items:center;justify-content:center;padding:25px;overflow:auto;pointer-events:auto}
+#screen[data-mode=paper] #terminal-surface{position:relative;left:auto;top:auto;flex:none;width:500px;height:580px;max-width:95vw;max-height:90vh;transform:none!important;border-radius:0;background:#bfb9a4;color:#252c25;font-size:16px;box-shadow:0 20px 65px #0009,inset 0 0 65px #5b4d2822}
+#screen[data-mode=paper] #terminal-surface:after{background:repeating-linear-gradient(0deg,transparent,transparent 2px,#403b2605 3px);box-shadow:none}
+#screen[data-mode=paper] .terminal-header{left:30px;right:30px;top:22px;color:#666a58;border-color:#48523c35;font-size:12px}
+#screen[data-mode=paper] .terminal-mark{font-size:13px}
+#screen[data-mode=paper] [data-menu-view]{inset:73px 30px 43px}
+#screen[data-mode=paper] #terminal-surface h1{font:32px 'Songti SC','STSong',serif;color:#273024;letter-spacing:.15em;margin:12px 0 14px}
+#screen[data-mode=paper] #terminal-surface h2{font:26px 'Songti SC','STSong',serif;color:#273024;margin-bottom:18px;letter-spacing:.1em}
+#screen[data-mode=paper] .eyebrow{font-size:12px;color:#69705d}
+#screen[data-mode=paper] #menu-copy{font-size:14px;color:#4a5344;margin-bottom:20px}
+#screen[data-mode=paper] #terminal-surface button{color:#394932;font-size:17px;background:none}
+#screen[data-mode=paper] #menu-actions button{font-size:20px;min-height:44px;border-bottom:1px solid #59644b20}
+#screen[data-mode=paper] #terminal-surface button:hover,#screen[data-mode=paper] #terminal-surface button:focus-visible{background:#35462e0d;color:#152413;outline:1px dashed #44553e66;outline-offset:-2px}
+#screen[data-mode=paper] .menu-secondary{border-color:#48523c35;margin:12px 0 20px}
+#screen[data-mode=paper] .menu-secondary button{font-size:14px!important}
+#screen[data-mode=paper] #desk-balance{font-size:12px;color:#565e4c;margin-top:18px}
+#screen[data-mode=paper] #save-status{font-size:11px;color:#747762}
+#screen[data-mode=paper] .terminal-footer{left:30px;right:30px;font-size:10px;color:#737764;border-color:#48523c35}
+#screen[data-mode=paper] .settings label{min-height:47px;font-size:14px;color:#394932;border-color:#48523c35}
+#screen[data-mode=paper] .settings small{font-size:10px;color:#737860}
+#screen[data-mode=paper] .settings select{background:#d5d0bc;color:#394932;min-width:150px;font-size:12px;border-color:#48523c55}
+#screen[data-mode=paper] .settings input[type=range]{width:140px;accent-color:#606e52}
+#screen[data-mode=paper] .settings input[type=checkbox]{width:18px;height:18px;accent-color:#606e52}
+#screen[data-mode=paper] .settings output{font-size:12px;width:36px;color:#687158}
+#screen[data-mode=paper] .menu-note{font-size:11px;color:#687158}
+#screen[data-mode=paper] .control-list{font-size:12px}#screen[data-mode=paper] .control-list>div{min-height:35px;border-color:#48523c30}#screen[data-mode=paper] .control-list dt{width:130px;color:#576449}#screen[data-mode=paper] .control-list dd{color:#3e5034;font-size:12px}
+#screen[data-mode=paper] .confirmation-copy{font-size:15px;line-height:2;color:#48543c}
+/* Only the current instruction remains in view. Full instructions live in the notebook. */
+header{top:24px;left:26px;right:26px}.wordmark,#status{display:none}#clock{font:16px monospace;color:#d5d4c6;opacity:.8}#objective{top:25px;left:26px;width:min(340px,38vw);text-shadow:0 1px 5px #000;pointer-events:none;border:0;background:none;padding:0}#chapter{display:none}#objective h2{font:14px/1.7 'PingFang SC',sans-serif;margin:0 0 5px;letter-spacing:.03em;color:#dedfd1}#objective p{font:11px/1.9 'PingFang SC',sans-serif;color:#b1b8aa;max-width:330px;margin:0}#objective p[hidden]{display:none}footer{opacity:0;transition:opacity .3s;left:26px;right:26px;font-size:9px;bottom:22px}body.hud-orientation footer{opacity:.55}#rent-progress{display:none}#inventory{font:11px/1.9 'PingFang SC',sans-serif;bottom:90px;right:26px;opacity:.85}#inventory[hidden]{display:none}#hp-hud{right:26px;bottom:47px;width:95px;font:10px monospace;opacity:.7}#hp-hud b{height:3px;border:0;background:#10190f88;margin-top:5px}#hp-hud i{background:#a6af92}#hp-hud.critical{opacity:1}#hp-hud.critical i{background:#b36550}
+#prompt{bottom:24%;padding:7px 12px;background:#080e0a78;color:#dfe2d3;border:0;font:13px/1.6 'PingFang SC',sans-serif;text-shadow:0 1px 6px #000;max-width:75vw}kbd{border:0;border-bottom:1px solid #bbc3aa55;border-radius:0;font-size:11px;padding:1px 3px}#crosshair{font-size:18px;opacity:.65}#subtitle,#talk-line{font:16px/1.85 'PingFang SC',sans-serif;background:linear-gradient(90deg,transparent,#04090799 12%,#04090799 88%,transparent);border:0;color:#eeede2;text-shadow:0 2px 5px #000}#talk-line{bottom:5%;padding:8px 20px}#talk-name{background:none;font-size:11px;color:#c2c8b5;letter-spacing:0}#talk-options button{background:#08100860;border:0;border-left:1px solid #adba9b40;font:12px/1.6 'PingFang SC',sans-serif;color:#c3ccb6;text-align:left}#talk-options button:hover{color:#e6eadc;background:#5c6d4f30}#conversation>small{opacity:.55}#toast{border:0;background:#080e0bcc;max-width:340px;font:12px/1.9 'PingFang SC',sans-serif;color:#c2cbb7;box-shadow:none}#tool-hint{left:26px;top:auto;bottom:95px;transform:none;max-width:290px;font:11px/1.9 'PingFang SC',sans-serif;padding:0;background:none;color:#b7c0ab;text-align:left;text-shadow:0 1px 5px #000}body.hud-speaking #tool-hint{visibility:hidden}body.cash-focus #change-hud{font-size:15px;line-height:1.8;background:#060c0ace;border:0}body.cash-focus header,body.device-focus header{visibility:hidden}
+/* Maps, manuals and records use the same uncoated staff-paper vocabulary. */
+#modal{background:#02060370;backdrop-filter:none}.paper{position:relative;width:min(720px,92vw);max-height:86vh;background:#c4beaa;color:#293227;border:0;box-shadow:0 20px 70px #0008,inset 0 0 80px #5c4f2420;padding:28px 34px;border-radius:0}.panel-top{border-bottom:1px solid #47543c40;padding-bottom:13px}#panel-kicker{color:#66735b;font:9px monospace;letter-spacing:.06em}#panel-close{background:none;color:#48593d;border:0;font-size:11px}.paper h2{font:26px 'Songti SC','STSong',serif;color:#263323;letter-spacing:.13em}.paper #panel-body{font:13px/1.95 'PingFang SC',sans-serif;color:#34432c}.paper #panel-body h3{color:#3a5131;font-size:14px}.paper .note{border-left-color:#75846a;background:#6571580b;color:#44523a}.paper #panel-actions{border-color:#56664a55}.paper button{background:none;color:#3d5731;border:1px solid #5e6e5260;font-size:12px}.paper button.primary{background:#5f6b4d15;color:#2a4420;font-weight:normal;border-color:#65795180}.paper button:hover{background:#61725320}.paper .quote{background:#69745b0d!important;border-color:#657951!important;color:#34462b!important}.paper .end-record>div{background:#66725812;color:#314928}.paper .end-record span{color:#596b4a}.current-assignment{border-bottom:1px dashed #596b4a66;margin-bottom:20px;padding-bottom:12px}.current-assignment small{font-size:10px;color:#708162;display:block}.current-assignment strong{font-weight:500;color:#294721}.current-assignment p{margin:5px 0 0!important;font-size:12px;color:#53664a}
+#resume{background:#04080555;backdrop-filter:none}#resume button{background:#111a12dd;border:1px solid #7c8a6f77;color:#c0cbb2;font-size:14px}#resume span{font-size:11px;color:#9ca98d}
+body.menu #objective,body.menu #subtitle,body.menu #toast,body.menu #tool-hint,body.menu #inventory,body.menu #prompt,body.menu #board-progress{display:none!important}body.opening-active #rent-progress{display:none!important}
+@media(max-width:800px){#objective{width:50vw;top:20px;left:18px}header{top:20px;right:18px}#objective h2{font-size:12px}#objective p{font-size:10px}#screen[data-mode=paper]{padding:12px}.paper{padding:22px}#subtitle,#talk-line{font-size:14px}.control-list dd{font-size:21px}}
+@media(prefers-reduced-motion:reduce){button,#objective,#inventory,footer{transition:none}}
+#screen[hidden]{display:none!important}
+body.journal-open header,body.journal-open #objective,body.journal-open #subtitle,body.journal-open #talk-line,body.journal-open #toast,body.journal-open #inventory,body.journal-open #crosshair,body.journal-open #prompt,body.journal-open #hp-hud,body.journal-open #tool-hint,body.journal-open footer{visibility:hidden!important}
+/* The original exterior title screen is the entry; the actual game buttons live on the CRT. */
+#landing-menu{display:none}#screen[data-mode=landing]{background:linear-gradient(90deg,#070b0bf5 0%,#080d0de8 28%,#080d0dbf 48%,#070b0b22 82%),linear-gradient(0deg,#050908e8,transparent 30%,transparent 70%,#060a09bd);overflow:auto;pointer-events:auto}#screen[data-mode=landing] #terminal-surface{display:none}#screen[data-mode=landing] #landing-menu{display:flex;position:relative;flex-direction:column;justify-content:center;min-height:100%;padding:105px 6vw 85px;color:#ded2b8;font:13px 'PingFang SC',sans-serif}
+.landing-top,.landing-bottom{position:absolute;left:6vw;right:6vw;display:flex;align-items:center;gap:10px;font:10px monospace;letter-spacing:.12em;color:#b8b29f}.landing-top{top:28px;border-bottom:1px solid #cab38228;padding-bottom:18px}.landing-top i{width:5px;height:5px;border-radius:50%;background:#dec085;box-shadow:0 0 8px #d4a86066}.landing-top span:last-child,.landing-bottom span:last-child{margin-left:auto}.landing-bottom{bottom:24px;border-top:1px solid #cab38228;padding-top:17px;font-size:9px;color:#9a998a}
+.landing-card{width:420px;max-width:48vw}.landing-card .eyebrow{font:10px monospace;letter-spacing:.18em;color:#ad9f83}.landing-card h1{font:500 clamp(44px,5.4vw,80px)/1.2 'Songti SC','STSong',serif;letter-spacing:.13em;margin:24px 0 30px;color:#eddfbf}.landing-card h1 span{display:block;font:12px monospace;letter-spacing:.64em;margin-top:18px;color:#c5ab7c}.landing-card p{font-size:13px;line-height:2.1;color:#bbb7a8;margin:0 0 28px}
+#enter-terminal{position:relative;display:block;width:min(320px,100%);min-height:44px;text-align:left;font:600 13px 'PingFang SC',sans-serif;background:#c4a36d;color:#1b201a;border:1px solid #c4a36d;padding:11px 17px;border-radius:1px}#enter-terminal span{position:absolute;right:17px}#enter-terminal:hover{background:#d9b67d}#enter-terminal:disabled{opacity:.45;cursor:wait}#enter-terminal:focus-visible{outline:2px solid #ead09a;outline-offset:4px}#landing-save{display:block;font:10px/1.8 'PingFang SC',sans-serif;color:#929888;margin-top:24px}
+#landing-menu aside{position:absolute;right:8vw;bottom:14%;text-align:right;opacity:.85;pointer-events:none}#landing-menu aside>span{font:80px/.9 monospace;letter-spacing:-.1em;color:#e3d0a8;border-bottom:2px solid #bd9e64;padding-bottom:12px}#landing-menu aside p{font:9px monospace;letter-spacing:.13em;color:#cec0a1;margin:22px 0 8px}#landing-menu aside small{font:9px monospace;letter-spacing:.32em;color:#a49b83}
+#terminal-back{font-size:17px!important;color:#72876a!important;padding:4px 0!important;margin-top:12px}#screen[data-mode=paper] #terminal-back{display:none}
+@media(max-width:850px){.landing-card{max-width:70vw}.landing-top span:last-child{display:none}#landing-menu aside{right:6vw;opacity:.4}#landing-menu aside>span{font-size:58px}.landing-bottom{font-size:8px}}
+@media(max-height:650px){#screen[data-mode=landing] #landing-menu{padding-top:80px}.landing-card h1{font-size:54px;margin:16px 0 22px}.landing-card p{margin-bottom:20px}.landing-top{top:20px;padding-bottom:12px}}
+
+/* Continuous dolly: only menu content fades. The 3D world is never covered. */
+#screen[data-mode=landing]{background:none}
+#screen[data-mode=landing] #landing-menu{background:linear-gradient(90deg,#070b0bf5 0%,#080d0de8 28%,#080d0dbf 48%,#070b0b22 82%),linear-gradient(0deg,#050908e8,transparent 30%,transparent 70%,#060a09bd)}
+#screen[data-transition=active]{background:none;overflow:hidden;pointer-events:auto}
+#screen[data-transition=active] #landing-menu,#screen[data-transition=active] #terminal-surface{opacity:var(--menu-content-opacity,0);pointer-events:none}
+body.menu.menu-journey:before,body.menu.menu-journey:after{height:5vh!important;transition:height .4s ease}

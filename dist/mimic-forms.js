@@ -1,0 +1,17 @@
+// Original non-graphic anatomical transformations. Every form is assigned to a
+// campaign visitor; the review page also exposes all ten for comparison.
+export const MIMIC_FORMS=[
+ {id:'watcher',name:'悬颈凝视者',head:[.88,1.18,.94],neck:.22,chest:[.05,0,-.08],arms:[1.08,1.12],elbows:[-.13,-.6],headPose:[-.17,.08,-.29],jaw:[.002,.025,.008],eye:.28,body:-.02,twitch:4.7,signature:'颈部先伸出，视线保持不动，随后短促双次抽搐'},
+ {id:'folded',name:'折背者',head:[1.04,.92,1.08],neck:.02,chest:[1.13,0,.04],arms:[1.3,1.17],elbows:[-.12,-.16],headPose:[-.87,-.12,.05],jaw:[.004,.012,.018],eye:.48,body:-.20,motion:{stride:.90,lift:.045,stance:.15,arm:.045},twitch:6.9,signature:'脊背向前折叠，低位仰视，两只手拖在膝前'},
+ {id:'hollow',name:'陷面者',head:[.66,1.38,.78],neck:.055,chest:[.03,0,0],arms:[1.02,1.05],elbows:[-.2,-.2],headPose:[.06,0,.03],jaw:[.001,.035,-.012],eye:.9,body:0,motion:{stride:1.50,lift:.07,stance:.075,arm:.015},twitch:0,signature:'狭长颅骨与深陷眼眶，身体异常安静，眼神不随步伐摆动'},
+ {id:'crooked',name:'错颌者',head:[1.03,1.05,.96],neck:.015,chest:[.13,.09,-.12],arms:[1.12,.98],elbows:[-.62,-.12],headPose:[-.04,.16,.25],jaw:[.026,.041,.012],eye:.44,body:-.035,twitch:3.9,signature:'下颌偏到一侧，一边肩膀压低，转头后下颌延迟归位'},
+ {id:'reacher',name:'长臂攫取者',head:[.93,.97,1.02],neck:.04,chest:[.22,0,.02],arms:[1.85,1.72],elbows:[-.18,-.3],headPose:[-.19,0,0],jaw:[.002,.025,.011],eye:.6,body:-.075,motion:{stride:1.65,lift:.09,stance:.12,arm:.08},twitch:5.7,signature:'前臂异常伸长，手指先探向目标，再由身体跟进'},
+ {id:'backturned',name:'反身者',head:[1.01,1.01,.93],neck:.07,chest:[-.1,3.02,-.06],arms:[1.12,1.2],elbows:[-.7,-.15],headPose:[.04,-3.02,-.08],jaw:[-.009,.018,.009],eye:.42,body:-.02,twitch:0,signature:'胸腔向后扭转，头却直视玩家，双肩与脚步方向相互矛盾'},
+ {id:'withered',name:'枯躯者',head:[.73,1.34,.88],neck:.16,chest:[.15,0,.03],arms:[1.33,1.31],elbows:[-.12,-.1],headPose:[-.13,-.06,.02],jaw:[.002,.048,.008],eye:.72,body:-.025,motion:{stride:.85,lift:.035,stance:.065,arm:.045},twitch:8.1,signature:'窄肩细躯、拉长面部，长手指按不同节奏蜷曲'},
+ {id:'lopsided',name:'垂肩者',head:[1.12,.95,1.06],neck:.025,chest:[.18,0,-.32],arms:[1.72,.82],elbows:[-.08,-.85],headPose:[-.08,.03,.30],jaw:[-.018,.028,.014],eye:.55,body:-.09,motion:{stride:1.05,leftLift:.04,rightLift:.12,lift:.08,stance:.13,arm:.09},twitch:4.3,signature:'一侧肩臂坠落，另一侧护在胸口，头部反向补偿后失控抽动'},
+ {id:'jawbound',name:'垂颌者',head:[1.0,1.06,1.02],neck:.035,chest:[.07,0,.01],arms:[1.06,1.08],elbows:[-.5,-.52],headPose:[-.04,0,.01],jaw:[.003,.110,.022],eye:.64,body:-.045,twitch:0,signature:'嘴部垂落但没有笑容，双手在胸前缓慢互相抓扣'},
+ {id:'stalker',name:'伏行者',head:[1.02,.89,1.15],neck:.04,chest:[1.0,0,-.025],arms:[1.6,1.64],elbows:[-.65,-.78],headPose:[-.97,.08,-.04],jaw:[.001,.028,.020],eye:.7,body:-.35,motion:{stride:1.78,lift:.13,stance:.10,arm:.18},twitch:5.1,signature:'屈膝伏低、双臂前伸，接近时抬眼，停下后头部短促回抽'}
+];
+const assignment={1:{wade:'watcher',rowan:'folded',milo:'hollow'},2:{cal:'reacher',june:'crooked',wade:'reacher',rowan:'backturned',milo:'withered'},3:{edith:'crooked',wade:'lopsided',nora:'jawbound',rowan:'stalker',milo:'hollow'}};
+export function mimicForm(source,variant=0){const id=source?.formId||assignment[source?.night||1]?.[source?.id];return MIMIC_FORMS.find(f=>f.id===id)||MIMIC_FORMS[((variant%10)+10)%10];}
+export function headTwitch(form,time){if(!form.twitch)return{x:0,y:0,z:0};const u=((time+form.twitch*.37)%form.twitch+form.twitch)%form.twitch;const pulse=(at,width)=>Math.exp(-(((u-at)/width)**2));return{x:(pulse(.12,.028)-pulse(.24,.044)*.45)*.22,y:(pulse(.17,.025)-pulse(.29,.05)*.35)*.17,z:(pulse(.12,.024)-pulse(.23,.035)*.65)*.20};}

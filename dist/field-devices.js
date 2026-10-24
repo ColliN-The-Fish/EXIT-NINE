@@ -1,0 +1,3 @@
+import * as T from './vendor/three.module.js';
+export function installFieldDevices(w){const a=w.a,dark=a.plain(0x28352e),steel=a.plain(0x7d8e7c,.6,.3);w.binocularHands=new T.Group();w.hands.add(w.binocularHands);for(const x of[-.14,.14]){w.box(x,-.26,-.5,.20,.20,.35,dark,false,w.binocularHands);w.box(x,-.26,-.69,.22,.22,.025,steel,false,w.binocularHands);}}
+export function updateFieldDevices(w,s){w.binocularHands.visible=!!s.binocularActive&&!w.device&&!s.hidden;if(s.binocularActive&&!w.device){w.camera.fov=2*Math.atan(Math.tan(71*Math.PI/360)/(s.binocularZoom||1))*180/Math.PI;w.camera.updateProjectionMatrix();}}
