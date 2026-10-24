@@ -1,5 +1,7 @@
 # EXIT NINE · 第九出口
 
+**在线地址 / Website:** <https://collin-the-fish.github.io/EXIT-NINE/>
+
 **[▶ 在线游玩 / Play in your browser](https://collin-the-fish.github.io/EXIT-NINE/)**  
 **[开发历程与历史版本 / Development history & playable builds](https://collin-the-fish.github.io/EXIT-NINE/history/)**
 
