@@ -1,0 +1,11 @@
+# Local and temporary files
+.DS_Store
+Thumbs.db
+node_modules/
+.env
+.env.*
+!.env.example
+*.log
+*.zip
+work/
+reports/

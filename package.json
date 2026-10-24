@@ -1,0 +1,9 @@
+{
+  "name": "exit-nine-player",
+  "version": "0.18.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}
