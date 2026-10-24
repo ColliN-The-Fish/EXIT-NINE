@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN"><head><base href="../../dist/"><link rel="stylesheet" href="../history/builds/ui3.css"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>玩家版 UI3 · EXIT NINE ARCHIVE</title><meta name="description" content="一款原创单人夜班辨伪与生存恐怖游戏。三个夜班，一条离站的路。玩家试玩版。"><link rel="icon" href="icon.svg" type="image/svg+xml"></head>
+<body class="menu">
+ <main id="world" aria-label="第一人称游戏场景"></main><div id="film" aria-hidden="true"></div><div id="vignette" aria-hidden="true"></div><div id="damage" aria-hidden="true"></div>
+ <header><div class="wordmark">EXIT <b>9</b><span>GAS & GROCERY</span></div><div id="clock">00:08</div><div id="status">FIRST SHIFT · 1996</div></header>
+ <section id="objective"><span id="chapter">01 / 开班</span><h2 id="task-title"></h2><p id="task-detail"></p></section>
+ <div id="crosshair" aria-hidden="true">·</div><div id="prompt" role="status"></div><div id="subtitle" role="status"></div><div id="toast" role="status" aria-live="polite"></div><div id="inventory"></div><div id="rent-progress" aria-label="租房与店铺资金"></div><div id="story-film-label"></div>
+ <section id="conversation" hidden aria-label="面对面对话"><div id="talk-name"></div><div id="talk-options"></div><small>1—5 选择问题 · Q 结束交谈 · 可移动与观察</small><p id="talk-line" role="status"></p></section>
+ <div id="binocular-mask"><svg viewBox="0 0 1440 900" preserveAspectRatio="none"><defs><mask id="binocular-cut"><rect width="1440" height="900" fill="white"/><ellipse cx="485" cy="450" rx="425" ry="355" fill="black"/><ellipse cx="955" cy="450" rx="425" ry="355" fill="black"/></mask></defs><rect width="1440" height="900" fill="#030603" mask="url(#binocular-cut)"/></svg><span id="binocular-zoom">1.0×</span><small>滚轮变焦 · B 收起</small></div><div id="board-progress" hidden></div>
+ <div id="hp-hud" aria-label="生命值"><span>HP 100 / 100</span><b><i></i></b></div><div id="tool-hint" role="status" hidden></div>
+ <div id="change-hud" hidden role="status"></div>
+ <footer><span><kbd>WASD</kbd> 移动　<kbd>Shift</kbd> 跑　<kbd>E</kbd> 交互</span><span><kbd>M</kbd> 地图　<kbd>Tab</kbd> 笔记　<kbd>Esc</kbd> 暂停</span></footer>
+ <div id="screen" class="overlay" data-mode="landing" data-ready="false">
+  <div id="landing-menu">
+   <div class="landing-top"><i></i><span>夜间营业 · 24 HOURS</span><span>NORTHBOUND / EXIT 09</span></div>
+   <section class="landing-card"><div class="eyebrow">NORTHERN HIGHWAY · 1996</div><h1>第九出口<span>EXIT NINE</span></h1><p>末班车已经到站。<br>三个夜班，凑齐新生活的首付款。</p><button id="enter-terminal" disabled>进入游戏 <span aria-hidden="true">→</span></button><small id="landing-save">进度自动保存在此浏览器</small></section>
+   <aside aria-hidden="true"><span>09</span><p>GAS · GROCERY · COFFEE</p><small>OPEN ALL NIGHT</small></aside>
+   <div class="landing-bottom"><span>建议佩戴耳机 · 键盘与鼠标</span><span>PLAYER EDITION · 0.18.0</span></div>
+  </div>
+  <div id="terminal-surface">
+   <div class="terminal-header"><span id="menu-context">第九出口 · 值班终端</span><span class="terminal-mark" aria-hidden="true">E9</span></div>
+   <section data-menu-view="home" class="home-page"><div class="eyebrow" id="menu-eyebrow">班次 01 / 1996</div><h1 id="menu-title">值班登记</h1><p id="menu-copy">亚历克斯 · 夜班店员</p><div id="menu-actions"><button disabled>正在接通终端…</button></div><div class="menu-secondary"><button disabled data-menu-page="settings">设置</button><button disabled data-menu-page="controls">操作说明</button></div><p id="desk-balance"></p><p id="save-status"></p><button id="terminal-back">返回主菜单</button></section>
+   <section data-menu-view="settings" hidden><h2 tabindex="-1">终端设置</h2><div class="settings">
+    <label>画面精度 <select id="quality"><option value="360">流畅 · 360p</option><option value="480" selected>颗粒 · 480p</option><option value="540">复古 · 540p</option><option value="720">精细 · 720p</option><option value="900">最高 · 900p</option></select></label>
+    <label><span>动态光源<small>关闭可减轻负担，保留手电</small></span><input id="dynamic-lighting" type="checkbox" checked></label>
+    <label>主音量 <input id="volume" aria-label="主音量" type="range" min="0" max="1" step=".05" value=".45"><output for="volume"></output></label>
+    <label>背景配乐 <select id="music-choice"><option value="ambient">冷灯氛围</option><option value="none">关闭</option></select></label>
+    <label>配乐音量 <input id="music-volume" aria-label="配乐音量" type="range" min="0" max=".8" step=".02" value=".28"><output for="music-volume"></output></label>
+    <label>鼠标灵敏度 <input id="sensitivity" aria-label="鼠标灵敏度" type="range" min=".0006" max=".0035" step=".0001" value=".0017"><output for="sensitivity"></output></label>
+   </div><p class="menu-note">设置自动保存。字幕与金额始终清晰。</p><button class="back-button" disabled data-menu-page="home">返回</button></section>
+   <section data-menu-view="controls" hidden><h2 tabindex="-1">当班须知</h2><dl class="control-list"><div><dt>WASD / 鼠标</dt><dd>移动 / 观察</dd></div><div><dt>Shift / E</dt><dd>跑步 / 操作高光物品</dd></div><div><dt>Q</dt><dd>放下货箱、归还证件、结束交谈</dd></div><div><dt>F / B</dt><dd>手电 / 望远镜；滚轮调节倍率</dd></div><div><dt>G / 鼠标左键</dt><dd>取出手枪 / 持枪时射击</dd></div><div><dt>M / Tab</dt><dd>地图 / 笔记，查看当前待办</dd></div><div><dt>Backspace</dt><dd>撤回尚未完成的找零</dd></div><div><dt>Esc</dt><dd>暂停 / 退出当前设备视角</dd></div></dl><p class="menu-note">开班先接电话。员工手册在柜台后方公告板。<br>继续游戏请使用同一浏览器与网址。</p><button class="back-button" disabled data-menu-page="home">返回</button></section>
+   <section data-menu-view="confirm" hidden><h2 tabindex="-1">重新开始？</h2><p class="confirmation-copy">从第一晚重新开始。<br>新进度保存后，会替换当前玩家存档。</p><div class="confirm-actions"><button id="cancel-new" class="primary">保留进度</button><button id="confirm-new">重新开始</button></div></section>
+   <div class="terminal-footer"><span>员工专用</span><span>进度保存在本机</span></div>
+  </div>
+  <div id="menu-transition-veil" hidden aria-hidden="true"></div>
+ </div>
+ <div id="modal" class="overlay" hidden><section class="paper" role="dialog" aria-modal="true" aria-labelledby="panel-title"><div class="panel-top"><span id="panel-kicker">NIGHT SHIFT</span><button id="panel-close" aria-label="关闭面板">关闭 <kbd>Esc</kbd></button></div><h2 id="panel-title"></h2><div id="panel-body"></div><div id="panel-actions"></div></section></div>
+ <div id="resume" hidden><button>点击继续 / 锁定鼠标</button><span>触控板也可按 E 交互。按 Esc 可释放鼠标。</span></div>
+ <section id="opening" hidden aria-label="末班车开场动画"><div id="opening-fade"></div><div id="opening-slate" hidden></div><div class="opening-top"><span id="opening-title"></span><div><button id="opening-pause">暂停 · Esc</button><button id="opening-skip">跳过开场 · Space</button></div></div><div class="opening-bottom"><small id="opening-speaker"></small><p id="opening-caption"></p></div><div class="opening-track"><i id="opening-progress"></i></div></section>
+ 
+<a href="../history/" aria-label="返回开发历程 / Back to development history" style="position:fixed;right:12px;top:10px;z-index:100000;color:#e5d9bd;background:#10120dcc;border:1px solid #81765d66;padding:5px 9px;font:11px monospace;text-decoration:none">ARCHIVE · ui3 ↗</a><script type="module" src="../history/builds/ui3.js"></script></body></html>
