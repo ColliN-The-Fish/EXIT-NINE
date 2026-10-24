@@ -1,0 +1,34 @@
+[
+  {
+    "id": "driver",
+    "seconds": 3.9653061224489794,
+    "peak": 0.62,
+    "rms": 0.06655873485541493,
+    "voice": "macOS Eddy Mandarin, PA filter",
+    "temporarySyntheticVoice": true
+  },
+  {
+    "id": "ben-1",
+    "seconds": 3.9997732426303854,
+    "peak": 0.62,
+    "rms": 0.08603613640686292,
+    "voice": "macOS Reed Mandarin, restrained adult male direction",
+    "temporarySyntheticVoice": true
+  },
+  {
+    "id": "ben-2",
+    "seconds": 4.930022675736962,
+    "peak": 0.62,
+    "rms": 0.07684890498456479,
+    "voice": "macOS Reed Mandarin, restrained adult male direction",
+    "temporarySyntheticVoice": true
+  },
+  {
+    "id": "ben-3",
+    "seconds": 2.9950566893424035,
+    "peak": 0.62,
+    "rms": 0.09145297681814843,
+    "voice": "macOS Reed Mandarin, restrained adult male direction",
+    "temporarySyntheticVoice": true
+  }
+]
